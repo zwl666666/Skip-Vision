@@ -42,7 +42,19 @@
 </head>
 <body>
 
-<p>This research has been <span style="color: #E91E63; font-weight: bold; font-size: 1.2em; border-bottom: 2px solid #E91E63;">ACCEPTED BY ICCV 2025</span>.</p>
+<style>
+    .pulse {
+        animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+        0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 87, 34, 0.7); }
+        70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(255, 87, 34, 0); }
+        100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 87, 34, 0); }
+    }
+</style>
+<div class="pulse" style="background-color: #FF5722; color: white; text-align: center; padding: 15px; font-size: 24px; font-weight: bold; margin: 20px 0;">
+    ACCEPTED BY ICCV 2025
+</div>
 
 <section class="hero">
   <div class="hero-body">
