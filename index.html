@@ -135,8 +135,6 @@
         <div class="content has-text-justified">
           <p>
             Transformer-based models have driven significant advancements in Multimodal Large Language Models (MLLMs), yet their computational costs surge drastically when scaling resolution, training data, and model parameters. A key bottleneck stems from the proliferation of visual tokens required for fine-grained image understanding. We propose Skip-Vision, a unified framework addressing both training and inference inefficiencies in vision-language models. On top of conventional token compression approaches, our method introduces two complementary acceleration strategies. 
-          </p>
-          <p>
             For training acceleration, we observe that Feed-Forward Network (FFN) computations on visual tokens induce marginal feature updates. This motivates our Skip-FFN strategy, which bypasses FFN layers for redundant visual tokens. For inference acceleration, we design a selective KV-cache removal mechanism that prunes the skipped key-value pairs during decoding while preserving model performance. 
           </p>
             Experimental results demonstrate that Skip-Vision reduces training time by up to 35%, inference FLOPs by 75%, and latency by 45%, while achieving comparable or superior performance to existing methods. Our work provides a practical solution for scaling high-performance MLLMs with enhanced efficiency.
