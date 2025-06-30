@@ -132,9 +132,6 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
-        <img src="./static/images/tradeoff-new.png"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
         <div class="content has-text-justified">
           <p>
             Transformer-based models have driven significant advancements in Multimodal Large Language Models (MLLMs), yet their computational costs surge drastically when scaling resolution, training data, and model parameters. A key bottleneck stems from the proliferation of visual tokens required for fine-grained image understanding. We propose Skip-Vision, a unified framework addressing both training and inference inefficiencies in vision-language models. On top of conventional token compression approaches, our method introduces two complementary acceleration strategies. 
@@ -152,13 +149,15 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Performance-efficiency trade-off</h2>
+        <img src="./static/images/tradeoff-new.png"
+                 class="interpolation-image"
+                 alt="Interpolate start reference image."/>
         <div class="content has-text-justified">
           <p>
-            Transformer-based models have driven significant advancements in Multimodal Large Language Models (MLLMs), yet their computational costs surge drastically when scaling resolution, training data, and model parameters. A key bottleneck stems from the proliferation of visual tokens required for fine-grained image understanding. We propose Skip-Vision, a unified framework addressing both training and inference inefficiencies in vision-language models. On top of conventional token compression approaches, our method introduces two complementary acceleration strategies. 
-            For training acceleration, we observe that Feed-Forward Network (FFN) computations on visual tokens induce marginal feature updates. This motivates our Skip-FFN strategy, which bypasses FFN layers for redundant visual tokens. For inference acceleration, we design a selective KV-cache removal mechanism that prunes the skipped key-value pairs during decoding while preserving model performance. 
-          </p>
-            Experimental results demonstrate that Skip-Vision reduces training time by up to 35%, inference FLOPs by 75%, and latency by 45%, while achieving comparable or superior performance to existing methods. Our work provides a practical solution for scaling high-performance MLLMs with enhanced efficiency.
-          <p>
+            <b>Performance-efficiency trade-off curve.</b> Each circle denotes a model configuration, where our models utilize
+              the Skip-Vision framework, with CoS, LLava-HD and LLaVA serving as baselines. Circle sizes reflect the inference FLOPs ratio. Skip-Vision demonstrate superior performance,
+              scaling effectively with increased FLOPs and data and achieving higher inference efficiency when compared to baselines and other effcient MLLM methods. All methods utilize LLaMA3 8B as the
+              foundational large language model.
           </p>
         </div>
       </div>
