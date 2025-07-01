@@ -191,7 +191,7 @@
     <!-- Performance. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Highlights</h2>
+        <h2 class="title is-3">Performance</h2>
         <div class="content has-text-justified">
           MMVet, MMStar and MM011 Bench highlight Skip-Vision’s strength in capturing causal
           and global information. These benchmarks emphasize
@@ -201,16 +201,31 @@
           FFN and KV-cache for less informative tokens, the model
           amplifies signal from key visual cues and enhances causal
           token interactions. While this comes with a slight trade off in fine-grained tasks (OCR, Textvqa), it reflects a deliberate balance between perception and reasoning, favoring
-          tasks that rely on semantic integration over detail fidelity
+          tasks that rely on semantic integration over detail fidelity.
+          <img src="./static/images/performance1.png"
+                 class="responsive-image"
+                 alt="Interpolate start reference image."/>
+        <div class="content has-text-justified">
           <p>
-            <b>Training speedup.</b> We introduce a novel and efficient Skip-Vision framework, using token merge and skip FFN strategy during training to reduce redundant computation for visual tokens. 
+            We evaluate Skip-Vision on LLaVA, LLaVA-HD, and CoS and compare it with state-ofthe-art efficiency optimization models under the LLaVA setting (LLaMA3 8B). N_r and N_s denote the number of retained and skipped tokens, respectively
           </p>
+        </div>
+          <img src="./static/images/performance4.png"
+                 class="responsive-image"
+                 alt="Interpolate start reference image."/>
+        <div class="content has-text-justified">
           <p>
-            <b>Inference speedup.</b> In inference, Skip-Vision employs a skip KV-cache mechanism that removes skip-FFN visual tokens from the KV-cache, enhancing efficiency. 
+            Following the LLaVA-1.5-7B training setup, we conducted additional comparisons between Skip-Vision and several recent works.
           </p>
+        </div>
+          <img src="./static/images/performance3.png"
+                 class="responsive-image"
+                 alt="Interpolate start reference image."/>
+        <div class="content has-text-justified">
           <p>
-            <b>Performance.</b> Experiments show Skip-Vision’s superior efficiency, effective data scaling, and performance on par with state-of-the-art models of similar scale.
+            We present the performance of SV-CoS on SV-9M, comparing it against the current SOTA models of a similar scale.
           </p>
+        </div>
         </div>
       </div>
     </div>
