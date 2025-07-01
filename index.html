@@ -164,13 +164,13 @@
           Skip-Vision is designed to be seamlessly integrated into the standard SFT pipeline of MLLMs without introducing additional re-training or decoupled modules. It directly modifies the 
           transformer’s computation flow (skip-FFN + token merge + adaptive summary token) and inference (skip-KV cache), offering a practical and theoretically grounded acceleration solution for MLLM training and inference jointly.
           <p>
-            <b><i class="fa fa-rocket fa-2x" style="color: #FF5722;"></i>Training speedup.</b> We introduce a novel and efficient Skip-Vision framework, using token merge and skip FFN strategy during training to reduce redundant computation for visual tokens. 
+            <b><span style="color: #FF9800; font-size: 30px;">🚀</span>Training speedup.</b> We introduce a novel and efficient Skip-Vision framework, using token merge and skip FFN strategy during training to reduce redundant computation for visual tokens. 
           </p>
           <p>
-            <b><i class="fa fa-rocket fa-2x" style="color: #FF5722;"></i>Inference speedup.</b> In inference, Skip-Vision employs a skip KV-cache mechanism that removes skip-FFN visual tokens from the KV-cache, enhancing efficiency. 
+            <b><span style="color: #FF9800; font-size: 30px;">🚀</span>Inference speedup.</b> In inference, Skip-Vision employs a skip KV-cache mechanism that removes skip-FFN visual tokens from the KV-cache, enhancing efficiency. 
           </p>
           <p>
-            <b><i class="fas fa-smile fa-2x" aria-hidden="true"></i>Performance.</b> Experiments show Skip-Vision’s superior efficiency, effective data scaling, and performance on par with state-of-the-art models of similar scale.
+            <b><span style="font-size: 24px;">😊</span>Performance.</b> Experiments show Skip-Vision’s superior efficiency, effective data scaling, and performance on par with state-of-the-art models of similar scale.
           </p>
         </div>
         <img src="./static/images/tradeoff-new.png"
