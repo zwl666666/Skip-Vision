@@ -151,6 +151,11 @@
     </div>
     <!--/ Abstract. -->
 
+    <head>
+    <!-- 引入 Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+
     <!-- Highlights. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -159,13 +164,13 @@
           Skip-Vision is designed to be seamlessly integrated into the standard SFT pipeline of MLLMs without introducing additional re-training or decoupled modules. It directly modifies the 
           transformer’s computation flow (skip-FFN + token merge + adaptive summary token) and inference (skip-KV cache), offering a practical and theoretically grounded acceleration solution for MLLM training and inference jointly.
           <p>
-            <b>Training speedup.</b> We introduce a novel and efficient Skip-Vision framework, using token merge and skip FFN strategy during training to reduce redundant computation for visual tokens. 
+            <b><i class="fa fa-rocket fa-3x" style="color: #FF5722;"></i>Training speedup.</b> We introduce a novel and efficient Skip-Vision framework, using token merge and skip FFN strategy during training to reduce redundant computation for visual tokens. 
           </p>
           <p>
-            <b>Inference speedup.</b> In inference, Skip-Vision employs a skip KV-cache mechanism that removes skip-FFN visual tokens from the KV-cache, enhancing efficiency. 
+            <b><i class="fa fa-rocket fa-3x" style="color: #FF5722;"></i>Inference speedup.</b> In inference, Skip-Vision employs a skip KV-cache mechanism that removes skip-FFN visual tokens from the KV-cache, enhancing efficiency. 
           </p>
           <p>
-            <b>Performance.</b> Experiments show Skip-Vision’s superior efficiency, effective data scaling, and performance on par with state-of-the-art models of similar scale.
+            <b><i class="fa fa-smile-o fa-2x" aria-hidden="true"></i>Performance.</b> Experiments show Skip-Vision’s superior efficiency, effective data scaling, and performance on par with state-of-the-art models of similar scale.
           </p>
         </div>
         <img src="./static/images/tradeoff-new.png"
