@@ -1,0 +1,41 @@
+#!/bin/bash
+
+conda activate llava;
+deepspeed llava/train/train_mem.py \
+    --deepspeed ./scripts/zero2.json \
+    --model_name_or_path /gruntdata/heyuan4/workspace/pishi.hzy/pretrained_models/llama3-8b-instruct/unsloth__llama-3-8b-Instruct \
+    --version llama3-plain-sepline \
+    --data_path ./playground/data/LLaVA-Pretrain/blip_laion_cc_sbu_558k.json \
+    --image_folder ./playground/data/LLaVA-Pretrain/images \
+    --path_conversion ./playground/data/ocrvqa_path-conversion.json \
+    --vision_tower /gruntdata/heyuan4/workspace/pishi.hzy/LLaVA-main/checkpoints/pretrained/openai__clip-vit-large-patch14-336 \
+    --mm_projector_type mlp2x_gelu \
+    --tune_mm_mlp_adapter True \
+    --mm_vision_select_layer -2 \
+    --mm_use_im_start_end False \
+    --mm_use_im_patch_token False \
+    --bf16 True \
+    --is_pretrain True \
+    --output_dir ./checkpoints_heyuan_nas2/prj_recon/clip336-llama3-8b-pretrain-recon-vqkd-unlock \
+    --num_train_epochs 1 \
+    --per_device_train_batch_size 32 \
+    --per_device_eval_batch_size 4 \
+    --gradient_accumulation_steps 1 \
+    --evaluation_strategy "no" \
+    --save_strategy "steps" \
+    --save_steps 24000 \
+    --save_total_limit 1 \
+    --learning_rate 1e-3 \
+    --weight_decay 0. \
+    --warmup_ratio 0.03 \
+    --lr_scheduler_type "cosine" \
+    --logging_steps 1 \
+    --tf32 True \
+    --model_max_length 2048 \
+    --gradient_checkpointing True \
+    --dataloader_num_workers 0 \
+    --lazy_preprocess True \
+    --report_to "none" \
+    --vqkd_model "vqkd_encoder_base_decoder_1x768x12_clip" \
+    --unlock_vision_tower True
+

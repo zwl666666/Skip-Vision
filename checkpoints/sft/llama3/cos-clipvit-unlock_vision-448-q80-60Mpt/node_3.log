@@ -1,0 +1,869 @@
+[2024-08-26 17:26:42,875] torch.distributed.run: [WARNING] 
+[2024-08-26 17:26:42,875] torch.distributed.run: [WARNING] *****************************************
+[2024-08-26 17:26:42,875] torch.distributed.run: [WARNING] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+[2024-08-26 17:26:42,875] torch.distributed.run: [WARNING] *****************************************
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+llava models imported
+llava models imported
+llava models imported
+llava models imported
+llava models imported
+llava models imported
+llava models imported
+llava models imported
+[2024-08-26 17:27:21,634] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,638] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,660] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,681] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,682] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,749] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,790] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,803] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,809] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,831] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,831] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,851] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,919] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:22,000] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:22,273] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:22,420] [INFO] [comm.py:637:init_distributed] cdb=None
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+aieflopsvip-kmaker-033145117202:249694:249694 [5] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145117202:249690:249690 [1] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145117202:249692:249692 [3] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145117202:249691:249691 [2] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145117202:249693:249693 [4] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145117202:249689:249689 [0] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145117202:249695:249695 [6] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145117202:249696:249696 [7] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145117202:249690:249690 [1] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249694:249694 [5] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249692:249692 [3] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249691:249691 [2] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249693:249693 [4] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249689:249689 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249695:249695 [6] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249696:249696 [7] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249690:249690 [1] NCCL INFO Bootstrap : Using eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249694:249694 [5] NCCL INFO Bootstrap : Using eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249691:249691 [2] NCCL INFO Bootstrap : Using eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249692:249692 [3] NCCL INFO Bootstrap : Using eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249693:249693 [4] NCCL INFO Bootstrap : Using eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249689:249689 [0] NCCL INFO Bootstrap : Using eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249695:249695 [6] NCCL INFO Bootstrap : Using eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249696:249696 [7] NCCL INFO Bootstrap : Using eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249690:249690 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145117202:249696:249696 [7] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145117202:249689:249689 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145117202:249693:249693 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145117202:249691:249691 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145117202:249692:249692 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145117202:249694:249694 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145117202:249695:249695 [6] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.117.202<0>
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO comm 0x9792adf0 rank 24 nranks 32 cudaDev 0 nvmlDev 0 busId 13000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO comm 0x7ae8fa80 rank 25 nranks 32 cudaDev 1 nvmlDev 1 busId 19000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO comm 0x798f4cc0 rank 26 nranks 32 cudaDev 2 nvmlDev 2 busId 48000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO comm 0x79897120 rank 30 nranks 32 cudaDev 6 nvmlDev 6 busId ad000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO comm 0x79c44260 rank 29 nranks 32 cudaDev 5 nvmlDev 5 busId 8e000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO comm 0x79ecc0f0 rank 31 nranks 32 cudaDev 7 nvmlDev 7 busId b3000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO comm 0x7b39c1d0 rank 27 nranks 32 cudaDev 3 nvmlDev 3 busId 4d000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO comm 0x7b0622e0 rank 28 nranks 32 cudaDev 4 nvmlDev 4 busId 89000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Setting affinity for GPU 6 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO NVLS multicast support is not available on dev 6
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO NVLS multicast support is not available on dev 2
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Setting affinity for GPU 1 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO NVLS multicast support is not available on dev 1
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Setting affinity for GPU 4 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO NVLS multicast support is not available on dev 4
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO NVLS multicast support is not available on dev 5
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Setting affinity for GPU 0 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO NVLS multicast support is not available on dev 0
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Setting affinity for GPU 3 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO NVLS multicast support is not available on dev 3
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Setting affinity for GPU 7 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO NVLS multicast support is not available on dev 7
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Trees [0] 25/-1/-1->24->16 [1] 25/-1/-1->24->31 [2] 25/-1/-1->24->31 [3] 25/-1/-1->24->31 [4] 25/8/-1->24->-1 [5] 25/-1/-1->24->31 [6] 25/-1/-1->24->31 [7] 25/-1/-1->24->31
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Trees [0] 26/-1/-1->25->24 [1] -1/-1/-1->25->24 [2] 26/-1/-1->25->24 [3] 26/-1/-1->25->24 [4] 26/-1/-1->25->24 [5] -1/-1/-1->25->24 [6] 26/-1/-1->25->24 [7] 26/-1/-1->25->24
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Trees [0] 31/-1/-1->30->29 [1] 31/-1/-1->30->29 [2] 31/-1/-1->30->29 [3] 31/-1/-1->30->22 [4] 31/-1/-1->30->29 [5] 31/-1/-1->30->29 [6] 31/-1/-1->30->29 [7] 31/14/-1->30->-1
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Trees [0] 27/-1/-1->26->25 [1] 27/-1/-1->26->18 [2] 27/-1/-1->26->25 [3] 27/-1/-1->26->25 [4] 27/-1/-1->26->25 [5] 27/10/-1->26->-1 [6] 27/-1/-1->26->25 [7] 27/-1/-1->26->25
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Trees [0] 29/-1/-1->28->27 [1] 29/-1/-1->28->27 [2] 29/-1/-1->28->20 [3] 29/-1/-1->28->27 [4] 29/-1/-1->28->27 [5] 29/-1/-1->28->27 [6] 29/12/-1->28->-1 [7] 29/-1/-1->28->27
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Trees [0] -1/-1/-1->31->30 [1] 24/-1/-1->31->30 [2] 24/-1/-1->31->30 [3] 24/-1/-1->31->30 [4] -1/-1/-1->31->30 [5] 24/-1/-1->31->30 [6] 24/-1/-1->31->30 [7] 24/-1/-1->31->30
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Trees [0] 28/-1/-1->27->26 [1] 28/-1/-1->27->26 [2] -1/-1/-1->27->26 [3] 28/-1/-1->27->26 [4] 28/-1/-1->27->26 [5] 28/-1/-1->27->26 [6] -1/-1/-1->27->26 [7] 28/-1/-1->27->26
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Trees [0] 30/-1/-1->29->28 [1] 30/-1/-1->29->28 [2] 30/-1/-1->29->28 [3] -1/-1/-1->29->28 [4] 30/-1/-1->29->28 [5] 30/-1/-1->29->28 [6] 30/-1/-1->29->28 [7] -1/-1/-1->29->28
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 00/0 : 17[1] -> 24[0] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 04/0 : 17[1] -> 24[0] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 00/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 02/0 : 21[5] -> 28[4] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 06/0 : 21[5] -> 28[4] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 02/0 : 29[5] -> 4[4] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 06/0 : 29[5] -> 4[4] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 00/0 : 25[1] -> 0[0] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 01/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 04/0 : 25[1] -> 0[0] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 03/0 : 23[7] -> 30[6] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 07/0 : 23[7] -> 30[6] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 01/0 : 27[3] -> 2[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 05/0 : 27[3] -> 2[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 01/0 : 19[3] -> 26[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 05/0 : 19[3] -> 26[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 02/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 03/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 04/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 05/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 06/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 07/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 03/0 : 31[7] -> 6[6] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 07/0 : 31[7] -> 6[6] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 00/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 01/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 02/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 04/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 05/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 06/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 00/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 02/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 03/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 00/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 00/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 00/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 04/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 01/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 01/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 01/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 06/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 03/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 02/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 04/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 05/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 07/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 07/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 02/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 03/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 04/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 03/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 05/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 04/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 06/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 05/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 07/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 06/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 07/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 00/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249843 [3] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 01/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 02/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 03/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 01/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 04/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 02/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 05/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 03/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 06/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 05/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 07/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 06/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 07/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249840 [5] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145117202:249690:249838 [1] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145117202:249693:249839 [4] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145117202:249693:249839 [4] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145117202:249693:249839 [4] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145117202:249692:249843 [3] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145117202:249692:249843 [3] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145117202:249693:249839 [4] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145117202:249692:249843 [3] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145117202:249694:249840 [5] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145117202:249694:249840 [5] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145117202:249694:249840 [5] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145117202:249691:249842 [2] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145117202:249691:249842 [2] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145117202:249691:249842 [2] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145117202:249691:249842 [2] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145117202:249690:249838 [1] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145117202:249690:249838 [1] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145117202:249690:249838 [1] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145117202:249689:249836 [0] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145117202:249689:249836 [0] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145117202:249689:249836 [0] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145117202:249689:249836 [0] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145117202:249696:249841 [7] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145117202:249696:249841 [7] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145117202:249696:249841 [7] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145117202:249696:249841 [7] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145117202:249695:249837 [6] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145117202:249695:249837 [6] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145117202:249695:249837 [6] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145117202:249695:249837 [6] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 00/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 01/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 00/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 02/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 01/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 03/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 02/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 04/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 03/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 05/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 04/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 00/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 06/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 05/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 01/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 07/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 06/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 03/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 07/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 04/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 00/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 05/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 02/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 07/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 03/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 04/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 06/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 07/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 00/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 00/0 : 16[0] -> 24[0] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 00/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 01/0 : 18[2] -> 26[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 04/0 : 8[0] -> 24[0] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 05/0 : 10[2] -> 26[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 04/0 : 24[0] -> 8[0] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 05/0 : 26[2] -> 10[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 00/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 00/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Channel 04/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 01/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 01/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 01/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 02/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 02/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 02/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 03/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Channel 00/0 : 24[0] -> 16[0] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 04/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 03/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 04/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 05/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 04/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 05/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 06/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 05/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 06/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 06/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 07/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 07/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 01/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 03/0 : 22[6] -> 30[6] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 07/0 : 14[6] -> 30[6] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 07/0 : 30[6] -> 14[6] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 01/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 02/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 02/0 : 20[4] -> 28[4] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 06/0 : 12[4] -> 28[4] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 06/0 : 28[4] -> 12[4] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 02/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Channel 03/0 : 30[6] -> 22[6] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Channel 06/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Channel 05/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Channel 02/0 : 28[4] -> 20[4] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 03/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Channel 01/0 : 26[2] -> 18[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 05/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 06/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 07/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 03/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Channel 07/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249693:249798 [4] NCCL INFO comm 0x7b0622e0 rank 28 nranks 32 cudaDev 4 nvmlDev 4 busId 89000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249696:249795 [7] NCCL INFO comm 0x79ecc0f0 rank 31 nranks 32 cudaDev 7 nvmlDev 7 busId b3000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249695:249796 [6] NCCL INFO comm 0x79897120 rank 30 nranks 32 cudaDev 6 nvmlDev 6 busId ad000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249694:249802 [5] NCCL INFO comm 0x79c44260 rank 29 nranks 32 cudaDev 5 nvmlDev 5 busId 8e000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249690:249797 [1] NCCL INFO comm 0x7ae8fa80 rank 25 nranks 32 cudaDev 1 nvmlDev 1 busId 19000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249691:249799 [2] NCCL INFO comm 0x798f4cc0 rank 26 nranks 32 cudaDev 2 nvmlDev 2 busId 48000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249689:249801 [0] NCCL INFO comm 0x9792adf0 rank 24 nranks 32 cudaDev 0 nvmlDev 0 busId 13000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249692:249800 [3] NCCL INFO comm 0x7b39c1d0 rank 27 nranks 32 cudaDev 3 nvmlDev 3 busId 4d000 commId 0x55d07b2619d4d57f - Init COMPLETE
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.17it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.17it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.04s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.05s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.04s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.05s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.05s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.05s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.12s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.20s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.13s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.21s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.21s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.18s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.23s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.12it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.12it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.06it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 30] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 31] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 29] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 27] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 24] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 26] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 28] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 25] initializing vision tower
+Resizing position embedding grid-size from %s to %sResizing position embedding grid-size from %s to %s  (16, 16) (16, 16)(32, 32) 
+(32, 32)
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+[RANK 30] Loading state dict to CLIP VIT.
+[RANK 31] Loading state dict to CLIP VIT.
+[RANK 24] Loading state dict to CLIP VIT.
+[RANK 29] Loading state dict to CLIP VIT.
+[]
+[]
+Resizing position embedding grid-size from %s to %sResizing position embedding grid-size from %s to %s  (16, 16)(16, 16)  (32, 32)(32, 32)
+
+[]
+[]
+[RANK 26] Loading state dict to CLIP VIT.
+[RANK 27] Loading state dict to CLIP VIT.
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+[]
+[]
+[RANK 25] Loading state dict to CLIP VIT.
+[]
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+[RANK 28] Loading state dict to CLIP VIT.
+[]
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+[RANK: 31] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 24] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 29] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 26] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 27] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 30] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 28] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 25] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+Formatting inputs...Skip in lazy mode
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO bootstrapSplit: rank 31 nranks 32 color 698429859 key 31 prev 30 next 0 - DONE
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO bootstrapSplit: rank 30 nranks 32 color 698429859 key 30 prev 29 next 31 - DONE
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO comm 0x7fba6c04d820 rank 31 nranks 32 cudaDev 7 nvmlDev 7 busId b3000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO comm 0x7f407804d5a0 rank 30 nranks 32 cudaDev 6 nvmlDev 6 busId ad000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO bootstrapSplit: rank 29 nranks 32 color 698429859 key 29 prev 28 next 30 - DONE
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO comm 0x7f86dc04d740 rank 29 nranks 32 cudaDev 5 nvmlDev 5 busId 8e000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO bootstrapSplit: rank 28 nranks 32 color 698429859 key 28 prev 27 next 29 - DONE
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO bootstrapSplit: rank 25 nranks 32 color 698429859 key 25 prev 24 next 26 - DONE
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO bootstrapSplit: rank 27 nranks 32 color 698429859 key 27 prev 26 next 28 - DONE
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO bootstrapSplit: rank 24 nranks 32 color 698429859 key 24 prev 23 next 25 - DONE
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO bootstrapSplit: rank 26 nranks 32 color 698429859 key 26 prev 25 next 27 - DONE
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO comm 0x7f4c4404d770 rank 28 nranks 32 cudaDev 4 nvmlDev 4 busId 89000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO comm 0x7fa2cc04d680 rank 25 nranks 32 cudaDev 1 nvmlDev 1 busId 19000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO comm 0x7fd42c04d650 rank 27 nranks 32 cudaDev 3 nvmlDev 3 busId 4d000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO comm 0x7fdf7004d150 rank 24 nranks 32 cudaDev 0 nvmlDev 0 busId 13000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO comm 0x7f010804d870 rank 26 nranks 32 cudaDev 2 nvmlDev 2 busId 48000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO NVLS multicast support is not available on dev 2
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Setting affinity for GPU 3 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO NVLS multicast support is not available on dev 3
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Setting affinity for GPU 6 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO NVLS multicast support is not available on dev 6
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Setting affinity for GPU 1 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO NVLS multicast support is not available on dev 1
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Setting affinity for GPU 0 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO NVLS multicast support is not available on dev 0
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Setting affinity for GPU 4 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO NVLS multicast support is not available on dev 4
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO NVLS multicast support is not available on dev 5
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Setting affinity for GPU 7 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO NVLS multicast support is not available on dev 7
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Trees [0] -1/-1/-1->31->30 [1] 24/-1/-1->31->30 [2] 24/-1/-1->31->30 [3] 24/-1/-1->31->30 [4] -1/-1/-1->31->30 [5] 24/-1/-1->31->30 [6] 24/-1/-1->31->30 [7] 24/-1/-1->31->30
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Trees [0] 31/-1/-1->30->29 [1] 31/-1/-1->30->29 [2] 31/-1/-1->30->29 [3] 31/-1/-1->30->22 [4] 31/-1/-1->30->29 [5] 31/-1/-1->30->29 [6] 31/-1/-1->30->29 [7] 31/14/-1->30->-1
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Trees [0] 30/-1/-1->29->28 [1] 30/-1/-1->29->28 [2] 30/-1/-1->29->28 [3] -1/-1/-1->29->28 [4] 30/-1/-1->29->28 [5] 30/-1/-1->29->28 [6] 30/-1/-1->29->28 [7] -1/-1/-1->29->28
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Trees [0] 25/-1/-1->24->16 [1] 25/-1/-1->24->31 [2] 25/-1/-1->24->31 [3] 25/-1/-1->24->31 [4] 25/8/-1->24->-1 [5] 25/-1/-1->24->31 [6] 25/-1/-1->24->31 [7] 25/-1/-1->24->31
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Trees [0] 26/-1/-1->25->24 [1] -1/-1/-1->25->24 [2] 26/-1/-1->25->24 [3] 26/-1/-1->25->24 [4] 26/-1/-1->25->24 [5] -1/-1/-1->25->24 [6] 26/-1/-1->25->24 [7] 26/-1/-1->25->24
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Trees [0] 29/-1/-1->28->27 [1] 29/-1/-1->28->27 [2] 29/-1/-1->28->20 [3] 29/-1/-1->28->27 [4] 29/-1/-1->28->27 [5] 29/-1/-1->28->27 [6] 29/12/-1->28->-1 [7] 29/-1/-1->28->27
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Trees [0] 27/-1/-1->26->25 [1] 27/-1/-1->26->18 [2] 27/-1/-1->26->25 [3] 27/-1/-1->26->25 [4] 27/-1/-1->26->25 [5] 27/10/-1->26->-1 [6] 27/-1/-1->26->25 [7] 27/-1/-1->26->25
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Trees [0] 28/-1/-1->27->26 [1] 28/-1/-1->27->26 [2] -1/-1/-1->27->26 [3] 28/-1/-1->27->26 [4] 28/-1/-1->27->26 [5] 28/-1/-1->27->26 [6] -1/-1/-1->27->26 [7] 28/-1/-1->27->26
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 02/0 : 29[5] -> 4[4] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 06/0 : 29[5] -> 4[4] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 02/0 : 21[5] -> 28[4] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 06/0 : 21[5] -> 28[4] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 00/0 : 17[1] -> 24[0] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 04/0 : 17[1] -> 24[0] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 01/0 : 19[3] -> 26[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 00/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 01/0 : 27[3] -> 2[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 03/0 : 23[7] -> 30[6] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 05/0 : 19[3] -> 26[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 05/0 : 27[3] -> 2[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 07/0 : 23[7] -> 30[6] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 00/0 : 25[1] -> 0[0] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 04/0 : 25[1] -> 0[0] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 01/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 02/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 03/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 04/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 05/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 00/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 06/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 00/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 00/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 03/0 : 31[7] -> 6[6] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 07/0 : 31[7] -> 6[6] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 01/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 07/0 : 24[0] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 01/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 01/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 00/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 02/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 00/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 02/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 00/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 02/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 01/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 01/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 03/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 01/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 03/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 02/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 03/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 02/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 03/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 04/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 02/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 04/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 03/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 04/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 03/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 04/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 05/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 04/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 05/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 04/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 05/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 05/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 05/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 06/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 05/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 06/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 06/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 06/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 06/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 07/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 07/0 : 28[4] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 06/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 07/0 : 26[2] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 07/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 07/0 : 30[6] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 07/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 00/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 01/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 02/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 03/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 00/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 04/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 01/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 05/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 00/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 02/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 06/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 01/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 04/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 07/0 : 24[0] -> 25[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 00/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 05/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 02/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 02/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 06/0 : 29[5] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 03/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 03/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 04/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 04/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 05/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 06/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 00/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 00/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 06/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 07/0 : 25[1] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 01/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 01/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 07/0 : 30[6] -> 31[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 02/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 00/0 : 16[0] -> 24[0] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 02/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 04/0 : 8[0] -> 24[0] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 04/0 : 24[0] -> 8[0] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 00/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 01/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 03/0 : 22[6] -> 30[6] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 03/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 07/0 : 14[6] -> 30[6] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 07/0 : 30[6] -> 14[6] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 03/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 01/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 02/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 04/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 04/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 03/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 03/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 05/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 05/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 04/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 05/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 06/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 06/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 05/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 06/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 07/0 : 26[2] -> 27[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 07/0 : 28[4] -> 29[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 07/0 : 27[3] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 07/0 : 31[7] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 00/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 02/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 01/0 : 18[2] -> 26[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 01/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 02/0 : 20[4] -> 28[4] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 05/0 : 10[2] -> 26[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 05/0 : 26[2] -> 10[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 06/0 : 12[4] -> 28[4] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 06/0 : 28[4] -> 12[4] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Channel 04/0 : 25[1] -> 24[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Channel 06/0 : 29[5] -> 28[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Channel 05/0 : 27[3] -> 26[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Channel 03/0 : 30[6] -> 22[6] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Channel 02/0 : 28[4] -> 20[4] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Channel 00/0 : 24[0] -> 16[0] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Channel 01/0 : 26[2] -> 18[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 03/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Channel 07/0 : 31[7] -> 30[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145117202:249696:259034 [7] NCCL INFO comm 0x7fba6c04d820 rank 31 nranks 32 cudaDev 7 nvmlDev 7 busId b3000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249694:259035 [5] NCCL INFO comm 0x7f86dc04d740 rank 29 nranks 32 cudaDev 5 nvmlDev 5 busId 8e000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249693:259033 [4] NCCL INFO comm 0x7f4c4404d770 rank 28 nranks 32 cudaDev 4 nvmlDev 4 busId 89000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249690:259039 [1] NCCL INFO comm 0x7fa2cc04d680 rank 25 nranks 32 cudaDev 1 nvmlDev 1 busId 19000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249691:259037 [2] NCCL INFO comm 0x7f010804d870 rank 26 nranks 32 cudaDev 2 nvmlDev 2 busId 48000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249695:259036 [6] NCCL INFO comm 0x7f407804d5a0 rank 30 nranks 32 cudaDev 6 nvmlDev 6 busId ad000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249692:259032 [3] NCCL INFO comm 0x7fd42c04d650 rank 27 nranks 32 cudaDev 3 nvmlDev 3 busId 4d000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145117202:249689:259038 [0] NCCL INFO comm 0x7fdf7004d150 rank 24 nranks 32 cudaDev 0 nvmlDev 0 busId 13000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[2024-08-26 17:47:43,297] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 249689 closing signal SIGTERM
+[2024-08-26 17:47:43,297] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 249690 closing signal SIGTERM
+[2024-08-26 17:47:43,297] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 249692 closing signal SIGTERM
+[2024-08-26 17:47:43,297] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 249693 closing signal SIGTERM
+[2024-08-26 17:47:43,297] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 249694 closing signal SIGTERM
+[2024-08-26 17:47:46,481] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: -9) local_rank: 2 (pid: 249691) of binary: /opt/conda/envs/llava/bin/python
+Traceback (most recent call last):
+  File "/opt/conda/envs/llava/bin/torchrun", line 33, in <module>
+    sys.exit(load_entry_point('torch==2.2.1', 'console_scripts', 'torchrun')())
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+=======================================================
+llava/train/train_mem.py FAILED
+-------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145117202
+  rank      : 30 (local_rank: 6)
+  exitcode  : -9 (pid: 249695)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 249695
+[2]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145117202
+  rank      : 31 (local_rank: 7)
+  exitcode  : -9 (pid: 249696)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 249696
+-------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145117202
+  rank      : 26 (local_rank: 2)
+  exitcode  : -9 (pid: 249691)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 249691
+=======================================================

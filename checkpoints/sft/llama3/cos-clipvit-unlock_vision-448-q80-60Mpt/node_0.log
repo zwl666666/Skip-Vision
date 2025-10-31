@@ -1,0 +1,1272 @@
+[2024-08-26 17:26:33,319] torch.distributed.run: [WARNING] 
+[2024-08-26 17:26:33,319] torch.distributed.run: [WARNING] *****************************************
+[2024-08-26 17:26:33,319] torch.distributed.run: [WARNING] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+[2024-08-26 17:26:33,319] torch.distributed.run: [WARNING] *****************************************
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+llava models imported
+llava models imported
+llava models imported
+llava models imported
+llava models imported
+llava models imported
+llava models imported
+llava models imported
+[2024-08-26 17:27:21,521] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,532] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,590] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,649] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,669] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,669] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-08-26 17:27:21,679] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,690] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,709] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,719] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:21,739] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,799] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,839] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,859] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:21,872] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-26 17:27:22,287] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-26 17:27:22,446] [INFO] [comm.py:637:init_distributed] cdb=None
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+Converting image folder to dict
+Loading path conversion file: ./playground/data/ocrvqa_path-conversion.json
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are using a model of type llama to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+aieflopsvip-kmaker-033145120215:234188:234188 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234188:234188 [0] NCCL INFO Bootstrap : Using eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234188:234188 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145120215:234188:234188 [0] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145120215:234195:234195 [7] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145120215:234191:234191 [3] NCCL INFO cudaDriverVersion 12010
+NCCL version 2.19.3+cuda12.1
+aieflopsvip-kmaker-033145120215:234192:234192 [4] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145120215:234194:234194 [6] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145120215:234193:234193 [5] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145120215:234195:234195 [7] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234191:234191 [3] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234192:234192 [4] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234194:234194 [6] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234193:234193 [5] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234194:234194 [6] NCCL INFO Bootstrap : Using eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234195:234195 [7] NCCL INFO Bootstrap : Using eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234193:234193 [5] NCCL INFO Bootstrap : Using eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234191:234191 [3] NCCL INFO Bootstrap : Using eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234192:234192 [4] NCCL INFO Bootstrap : Using eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234189:234189 [1] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145120215:234189:234189 [1] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234194:234194 [6] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145120215:234195:234195 [7] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145120215:234191:234191 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145120215:234192:234192 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145120215:234193:234193 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145120215:234189:234189 [1] NCCL INFO Bootstrap : Using eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234190:234190 [2] NCCL INFO cudaDriverVersion 12010
+aieflopsvip-kmaker-033145120215:234190:234190 [2] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234189:234189 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145120215:234190:234190 [2] NCCL INFO Bootstrap : Using eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234190:234190 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO NCCL_IB_HCA set to mlx5
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO NET/IB : Using [0]mlx5_1:1/RoCE [1]mlx5_57:1/RoCE [2]mlx5_113:1/RoCE [3]mlx5_169:1/RoCE [RO]; OOB eth0:33.145.120.215<0>
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO comm 0x7a8d58e0 rank 1 nranks 32 cudaDev 1 nvmlDev 1 busId 27000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO comm 0x97bd10b0 rank 0 nranks 32 cudaDev 0 nvmlDev 0 busId 21000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO comm 0x7a4c7a20 rank 3 nranks 32 cudaDev 3 nvmlDev 3 busId 56000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO comm 0x79ff90a0 rank 2 nranks 32 cudaDev 2 nvmlDev 2 busId 51000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO comm 0x79870d70 rank 5 nranks 32 cudaDev 5 nvmlDev 5 busId 92000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO comm 0x7b1c70d0 rank 6 nranks 32 cudaDev 6 nvmlDev 6 busId c9000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO comm 0x79dbbcc0 rank 4 nranks 32 cudaDev 4 nvmlDev 4 busId 8d000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO comm 0x7a80f5c0 rank 7 nranks 32 cudaDev 7 nvmlDev 7 busId cf000 commId 0x55d07b2619d4d57f - Init START
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Setting affinity for GPU 0 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO NVLS multicast support is not available on dev 0
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Setting affinity for GPU 1 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Setting affinity for GPU 3 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO NVLS multicast support is not available on dev 3
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO NVLS multicast support is not available on dev 1
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO NVLS multicast support is not available on dev 2
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Setting affinity for GPU 7 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO NVLS multicast support is not available on dev 7
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Setting affinity for GPU 6 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO NVLS multicast support is not available on dev 6
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO NVLS multicast support is not available on dev 5
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Setting affinity for GPU 4 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO NVLS multicast support is not available on dev 4
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] 0/-1/-1->7->6 [2] 0/-1/-1->7->6 [3] 0/-1/-1->7->6 [4] -1/-1/-1->7->6 [5] 0/-1/-1->7->6 [6] 0/-1/-1->7->6 [7] 0/-1/-1->7->6
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5 [2] 7/-1/-1->6->5 [3] 7/22/-1->6->-1 [4] 7/-1/-1->6->5 [5] 7/-1/-1->6->5 [6] 7/-1/-1->6->5 [7] 7/-1/-1->6->14
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Trees [0] 6/-1/-1->5->4 [1] 6/-1/-1->5->4 [2] 6/-1/-1->5->4 [3] -1/-1/-1->5->4 [4] 6/-1/-1->5->4 [5] 6/-1/-1->5->4 [6] 6/-1/-1->5->4 [7] -1/-1/-1->5->4
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Trees [0] 5/-1/-1->4->3 [1] 5/-1/-1->4->3 [2] 5/20/-1->4->-1 [3] 5/-1/-1->4->3 [4] 5/-1/-1->4->3 [5] 5/-1/-1->4->3 [6] 5/-1/-1->4->12 [7] 5/-1/-1->4->3
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 00/08 :    0   7   6   5   4   3   2   1   8  15  14  13  12  11  10   9  16  23  22  21
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/18/-1->2->-1 [2] 3/-1/-1->2->1 [3] 3/-1/-1->2->1 [4] 3/-1/-1->2->1 [5] 3/-1/-1->2->10 [6] 3/-1/-1->2->1 [7] 3/-1/-1->2->1
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] -1/-1/-1->1->0 [2] 2/-1/-1->1->0 [3] 2/-1/-1->1->0 [4] 2/-1/-1->1->0 [5] -1/-1/-1->1->0 [6] 2/-1/-1->1->0 [7] 2/-1/-1->1->0
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 01/08 :    0   7   6   5   4   3  10   9   8  15  14  13  12  11  18  17  16  23  22  21
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 02/08 :    0   7   6   5  12  11  10   9   8  15  14  13  20  19  18  17  16  23  22  21
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 03/08 :    0   7  14  13  12  11  10   9   8  15  22  21  20  19  18  17  16  23  30  29
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 04/08 :    0   7   6   5   4   3   2   1   8  15  14  13  12  11  10   9  16  23  22  21
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 05/08 :    0   7   6   5   4   3  10   9   8  15  14  13  12  11  18  17  16  23  22  21
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 06/08 :    0   7   6   5  12  11  10   9   8  15  14  13  20  19  18  17  16  23  22  21
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 07/08 :    0   7  14  13  12  11  10   9   8  15  22  21  20  19  18  17  16  23  30  29
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Trees [0] 1/16/-1->0->-1 [1] 1/-1/-1->0->7 [2] 1/-1/-1->0->7 [3] 1/-1/-1->0->7 [4] 1/-1/-1->0->8 [5] 1/-1/-1->0->7 [6] 1/-1/-1->0->7 [7] 1/-1/-1->0->7
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Trees [0] 4/-1/-1->3->2 [1] 4/-1/-1->3->2 [2] -1/-1/-1->3->2 [3] 4/-1/-1->3->2 [4] 4/-1/-1->3->2 [5] 4/-1/-1->3->2 [6] -1/-1/-1->3->2 [7] 4/-1/-1->3->2
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 03/0 : 31[7] -> 6[6] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 07/0 : 31[7] -> 6[6] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 01/0 : 27[3] -> 2[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 05/0 : 27[3] -> 2[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 00/0 : 25[1] -> 0[0] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 04/0 : 25[1] -> 0[0] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 00/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 02/0 : 5[5] -> 12[4] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 06/0 : 5[5] -> 12[4] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 00/0 : 1[1] -> 8[0] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 04/0 : 1[1] -> 8[0] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 02/0 : 29[5] -> 4[4] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 01/0 : 3[3] -> 10[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 06/0 : 29[5] -> 4[4] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 05/0 : 3[3] -> 10[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 01/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 02/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 03/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 04/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 05/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 00/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 03/0 : 7[7] -> 14[6] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 07/0 : 7[7] -> 14[6] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 00/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 06/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 01/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 00/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 01/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 07/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 02/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 01/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 02/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 00/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 00/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 03/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 02/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 03/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 01/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 01/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 04/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 03/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 04/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 01/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 03/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 02/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 05/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 04/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 05/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 03/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 04/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 04/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 06/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 05/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 06/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 05/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 05/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 07/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 06/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 07/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 05/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 07/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 06/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 07/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 06/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 07/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234343 [3] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145120215:234189:234340 [1] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145120215:234192:234341 [4] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145120215:234190:234337 [2] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145120215:234192:234341 [4] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145120215:234192:234341 [4] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145120215:234192:234341 [4] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145120215:234190:234337 [2] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145120215:234190:234337 [2] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145120215:234190:234337 [2] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145120215:234193:234339 [5] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145120215:234191:234343 [3] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145120215:234191:234343 [3] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145120215:234191:234343 [3] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145120215:234193:234339 [5] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145120215:234193:234339 [5] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145120215:234193:234339 [5] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145120215:234188:234342 [0] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145120215:234188:234342 [0] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145120215:234188:234342 [0] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145120215:234188:234342 [0] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145120215:234189:234340 [1] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145120215:234189:234340 [1] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145120215:234189:234340 [1] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145120215:234194:234336 [6] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145120215:234194:234336 [6] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145120215:234194:234336 [6] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145120215:234194:234336 [6] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145120215:234195:234338 [7] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+aieflopsvip-kmaker-033145120215:234195:234338 [7] NCCL INFO NCCL_IB_TC set by environment to 136.
+aieflopsvip-kmaker-033145120215:234195:234338 [7] NCCL INFO NCCL_IB_SL set by environment to 5.
+aieflopsvip-kmaker-033145120215:234195:234338 [7] NCCL INFO NCCL_IB_TIMEOUT set by environment to 22.
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 00/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 01/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 00/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 02/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 02/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 03/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 03/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 03/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 04/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 04/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 05/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 06/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 06/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 07/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 07/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 04/0 : 0[0] -> 8[0] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 01/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 02/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Channel 04/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 00/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 03/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 01/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 00/0 : 16[0] -> 0[0] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 00/0 : 0[0] -> 16[0] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Channel 04/0 : 8[0] -> 0[0] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 05/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 00/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 02/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 06/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 01/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 03/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 07/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 02/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 04/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 04/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 03/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 05/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 05/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 04/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 06/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 06/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 05/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 07/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 07/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 07/0 : 6[6] -> 14[6] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 03/0 : 22[6] -> 6[6] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 03/0 : 6[6] -> 22[6] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 02/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Channel 07/0 : 14[6] -> 6[6] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 06/0 : 4[4] -> 12[4] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Channel 06/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 02/0 : 20[4] -> 4[4] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 02/0 : 4[4] -> 20[4] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Channel 06/0 : 12[4] -> 4[4] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 05/0 : 2[2] -> 10[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 03/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 01/0 : 18[2] -> 2[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 01/0 : 2[2] -> 18[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Channel 05/0 : 10[2] -> 2[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Channel 07/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234190:234301 [2] NCCL INFO comm 0x79ff90a0 rank 2 nranks 32 cudaDev 2 nvmlDev 2 busId 51000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234194:234296 [6] NCCL INFO comm 0x7b1c70d0 rank 6 nranks 32 cudaDev 6 nvmlDev 6 busId c9000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234188:234295 [0] NCCL INFO comm 0x97bd10b0 rank 0 nranks 32 cudaDev 0 nvmlDev 0 busId 21000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234193:234299 [5] NCCL INFO comm 0x79870d70 rank 5 nranks 32 cudaDev 5 nvmlDev 5 busId 92000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234191:234297 [3] NCCL INFO comm 0x7a4c7a20 rank 3 nranks 32 cudaDev 3 nvmlDev 3 busId 56000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234189:234300 [1] NCCL INFO comm 0x7a8d58e0 rank 1 nranks 32 cudaDev 1 nvmlDev 1 busId 27000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234195:234302 [7] NCCL INFO comm 0x7a80f5c0 rank 7 nranks 32 cudaDev 7 nvmlDev 7 busId cf000 commId 0x55d07b2619d4d57f - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234192:234298 [4] NCCL INFO comm 0x79dbbcc0 rank 4 nranks 32 cudaDev 4 nvmlDev 4 busId 8d000 commId 0x55d07b2619d4d57f - Init COMPLETE
+[2024-08-26 17:27:29,211] [INFO] [partition_parameters.py:348:__exit__] finished initializing model - num_params = 291, num_elems = 8.03B
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.05it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.01s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.07s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.12it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.00it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.08s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.06it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.48s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.16s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.18s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.21s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.14s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.17s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.22s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.16s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.20s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.23s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.23s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.21s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.10it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.06it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.11it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.06it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.10it/s]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.32s/it]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 6] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 4] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 3] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 5] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 7] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 1] initializing vision tower
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 2] initializing vision tower
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.05it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.11s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[RANK 0] initializing vision tower
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+[RANK 3] Loading state dict to CLIP VIT.
+[RANK 7] Loading state dict to CLIP VIT.
+[]
+[]
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+[RANK 6] Loading state dict to CLIP VIT.
+[RANK 1] Loading state dict to CLIP VIT.
+[]
+[]
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+[RANK 4] Loading state dict to CLIP VIT.
+[RANK 5] Loading state dict to CLIP VIT.
+[]
+[]
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+[RANK 2] Loading state dict to CLIP VIT.
+[]
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+[RANK: 7] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 6] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 3] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 4] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK: 1] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+Resizing position embedding grid-size from %s to %s (16, 16) (32, 32)
+[RANK: 2] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[RANK 0] Loading state dict to CLIP VIT.
+[RANK: 5] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[]
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+Building visual processor at the resolution of 448
+Setting cls_token_w32_q16...
+Setting cls_token_w8_q64...
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+[RANK: 0] Initializing weights for WindowedPoolerMultiResMultiScaleV3Init.
+[mm_projector] keys in model not matched: []
+[mm_projector] keys in checkpoint not matched: []
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+Formatting inputs...Skip in lazy mode
+/opt/conda/envs/llava/lib/python3.10/site-packages/accelerate/accelerator.py:432: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+Parameter Offload: Total persistent parameters: 647168 in 292 params
+  0%|          | 0/2599 [00:00<?, ?it/s]/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Using non-device net plugin version 0
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Using network IB
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO bootstrapSplit: rank 0 nranks 32 color 698429859 key 0 prev 31 next 1 - DONE
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO bootstrapSplit: rank 1 nranks 32 color 698429859 key 1 prev 0 next 2 - DONE
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO comm 0x7fa1ec04e3d0 rank 0 nranks 32 cudaDev 0 nvmlDev 0 busId 21000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO comm 0x7fb04004d320 rank 1 nranks 32 cudaDev 1 nvmlDev 1 busId 27000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO bootstrapSplit: rank 2 nranks 32 color 698429859 key 2 prev 1 next 3 - DONE
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO bootstrapSplit: rank 5 nranks 32 color 698429859 key 5 prev 4 next 6 - DONE
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO comm 0x7f588404d580 rank 2 nranks 32 cudaDev 2 nvmlDev 2 busId 51000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO bootstrapSplit: rank 6 nranks 32 color 698429859 key 6 prev 5 next 7 - DONE
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO bootstrapSplit: rank 4 nranks 32 color 698429859 key 4 prev 3 next 5 - DONE
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO bootstrapSplit: rank 7 nranks 32 color 698429859 key 7 prev 6 next 8 - DONE
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO bootstrapSplit: rank 3 nranks 32 color 698429859 key 3 prev 2 next 4 - DONE
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO comm 0x7fc77404d4a0 rank 5 nranks 32 cudaDev 5 nvmlDev 5 busId 92000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO comm 0x7f4c1404d440 rank 6 nranks 32 cudaDev 6 nvmlDev 6 busId c9000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO comm 0x7f6fd004d6e0 rank 4 nranks 32 cudaDev 4 nvmlDev 4 busId 8d000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO comm 0x7fd09c04d9a0 rank 7 nranks 32 cudaDev 7 nvmlDev 7 busId cf000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO comm 0x7f7fc804dab0 rank 3 nranks 32 cudaDev 3 nvmlDev 3 busId 56000 commId 0x6ea2d0a76d1b134d - Init START
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Setting affinity for GPU 1 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Setting affinity for GPU 7 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO NVLS multicast support is not available on dev 7
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO NVLS multicast support is not available on dev 1
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO NVLS multicast support is not available on dev 2
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO NVLS multicast support is not available on dev 5
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Setting affinity for GPU 4 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Setting affinity for GPU 3 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Setting affinity for GPU 6 to ffffffff,00000000,ffffffff,00000000
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Setting affinity for GPU 0 to ffffffff,00000000,ffffffff
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO NVLS multicast support is not available on dev 0
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO NVLS multicast support is not available on dev 6
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO NVLS multicast support is not available on dev 3
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO NVLS multicast support is not available on dev 4
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 00/08 :    0   7   6   5   4   3   2   1   8  15  14  13  12  11  10   9  16  23  22  21
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 01/08 :    0   7   6   5   4   3  10   9   8  15  14  13  12  11  18  17  16  23  22  21
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 02/08 :    0   7   6   5  12  11  10   9   8  15  14  13  20  19  18  17  16  23  22  21
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 03/08 :    0   7  14  13  12  11  10   9   8  15  22  21  20  19  18  17  16  23  30  29
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 04/08 :    0   7   6   5   4   3   2   1   8  15  14  13  12  11  10   9  16  23  22  21
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/18/-1->2->-1 [2] 3/-1/-1->2->1 [3] 3/-1/-1->2->1 [4] 3/-1/-1->2->1 [5] 3/-1/-1->2->10 [6] 3/-1/-1->2->1 [7] 3/-1/-1->2->1
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 05/08 :    0   7   6   5   4   3  10   9   8  15  14  13  12  11  18  17  16  23  22  21
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 06/08 :    0   7   6   5  12  11  10   9   8  15  14  13  20  19  18  17  16  23  22  21
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 07/08 :    0   7  14  13  12  11  10   9   8  15  22  21  20  19  18  17  16  23  30  29
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Trees [0] 1/16/-1->0->-1 [1] 1/-1/-1->0->7 [2] 1/-1/-1->0->7 [3] 1/-1/-1->0->7 [4] 1/-1/-1->0->8 [5] 1/-1/-1->0->7 [6] 1/-1/-1->0->7 [7] 1/-1/-1->0->7
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] 0/-1/-1->7->6 [2] 0/-1/-1->7->6 [3] 0/-1/-1->7->6 [4] -1/-1/-1->7->6 [5] 0/-1/-1->7->6 [6] 0/-1/-1->7->6 [7] 0/-1/-1->7->6
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5 [2] 7/-1/-1->6->5 [3] 7/22/-1->6->-1 [4] 7/-1/-1->6->5 [5] 7/-1/-1->6->5 [6] 7/-1/-1->6->5 [7] 7/-1/-1->6->14
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Trees [0] 5/-1/-1->4->3 [1] 5/-1/-1->4->3 [2] 5/20/-1->4->-1 [3] 5/-1/-1->4->3 [4] 5/-1/-1->4->3 [5] 5/-1/-1->4->3 [6] 5/-1/-1->4->12 [7] 5/-1/-1->4->3
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Trees [0] 4/-1/-1->3->2 [1] 4/-1/-1->3->2 [2] -1/-1/-1->3->2 [3] 4/-1/-1->3->2 [4] 4/-1/-1->3->2 [5] 4/-1/-1->3->2 [6] -1/-1/-1->3->2 [7] 4/-1/-1->3->2
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] -1/-1/-1->1->0 [2] 2/-1/-1->1->0 [3] 2/-1/-1->1->0 [4] 2/-1/-1->1->0 [5] -1/-1/-1->1->0 [6] 2/-1/-1->1->0 [7] 2/-1/-1->1->0
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Trees [0] 6/-1/-1->5->4 [1] 6/-1/-1->5->4 [2] 6/-1/-1->5->4 [3] -1/-1/-1->5->4 [4] 6/-1/-1->5->4 [5] 6/-1/-1->5->4 [6] 6/-1/-1->5->4 [7] -1/-1/-1->5->4
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO P2P Chunksize set to 131072
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 01/0 : 27[3] -> 2[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 05/0 : 27[3] -> 2[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 00/0 : 25[1] -> 0[0] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 03/0 : 31[7] -> 6[6] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 04/0 : 25[1] -> 0[0] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 00/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 07/0 : 31[7] -> 6[6] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 00/0 : 1[1] -> 8[0] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 02/0 : 29[5] -> 4[4] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 04/0 : 1[1] -> 8[0] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 02/0 : 5[5] -> 12[4] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 06/0 : 29[5] -> 4[4] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 06/0 : 5[5] -> 12[4] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 01/0 : 3[3] -> 10[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 05/0 : 3[3] -> 10[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 01/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 02/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 03/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 04/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 03/0 : 7[7] -> 14[6] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 07/0 : 7[7] -> 14[6] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 05/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 06/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 07/0 : 0[0] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 00/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 00/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 01/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 01/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 01/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 02/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 03/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 03/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 04/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 04/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 05/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 05/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 06/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 05/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 07/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 06/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 07/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 00/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 01/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 02/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 03/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 04/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 05/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 06/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 00/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 07/0 : 4[4] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 01/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 02/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 03/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 04/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 05/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 06/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 07/0 : 2[2] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 00/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 01/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 02/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 03/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 04/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 05/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 06/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 07/0 : 6[6] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Connected all rings
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 00/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 00/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 01/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 01/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 02/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 00/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 02/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 00/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 03/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 01/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 03/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 02/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 03/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 04/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 02/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 04/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 03/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 03/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 05/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 04/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 05/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 04/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 04/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 06/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 05/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 06/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 06/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 05/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 07/0 : 4[4] -> 5[5] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 06/0 : 5[5] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 07/0 : 6[6] -> 7[7] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 07/0 : 1[1] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 07/0 : 3[3] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 02/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 01/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 07/0 : 6[6] -> 14[6] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 04/0 : 0[0] -> 8[0] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 05/0 : 2[2] -> 10[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 03/0 : 22[6] -> 6[6] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 00/0 : 16[0] -> 0[0] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 06/0 : 4[4] -> 12[4] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 03/0 : 6[6] -> 22[6] [send] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 00/0 : 0[0] -> 16[0] [send] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Channel 07/0 : 14[6] -> 6[6] [receive] via NET/IB/1/GDRDMA
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 01/0 : 18[2] -> 2[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 02/0 : 20[4] -> 4[4] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Channel 04/0 : 8[0] -> 0[0] [receive] via NET/IB/2/GDRDMA
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 02/0 : 4[4] -> 20[4] [send] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 01/0 : 2[2] -> 18[2] [send] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Channel 06/0 : 12[4] -> 4[4] [receive] via NET/IB/0/GDRDMA
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Channel 05/0 : 10[2] -> 2[2] [receive] via NET/IB/3/GDRDMA
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Channel 06/0 : 5[5] -> 4[4] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 02/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Channel 04/0 : 1[1] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 03/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 05/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 06/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 07/0 : 7[7] -> 0[0] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 03/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Channel 07/0 : 7[7] -> 6[6] via P2P/CUMEM/read
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO Connected all trees
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO threadThresholds 8/8/64 | 256/8/64 | 512 | 512
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO 8 coll channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+aieflopsvip-kmaker-033145120215:234190:243541 [2] NCCL INFO comm 0x7f588404d580 rank 2 nranks 32 cudaDev 2 nvmlDev 2 busId 51000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234192:243536 [4] NCCL INFO comm 0x7f6fd004d6e0 rank 4 nranks 32 cudaDev 4 nvmlDev 4 busId 8d000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234188:243534 [0] NCCL INFO comm 0x7fa1ec04e3d0 rank 0 nranks 32 cudaDev 0 nvmlDev 0 busId 21000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234194:243539 [6] NCCL INFO comm 0x7f4c1404d440 rank 6 nranks 32 cudaDev 6 nvmlDev 6 busId c9000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234195:243537 [7] NCCL INFO comm 0x7fd09c04d9a0 rank 7 nranks 32 cudaDev 7 nvmlDev 7 busId cf000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234191:243535 [3] NCCL INFO comm 0x7f7fc804dab0 rank 3 nranks 32 cudaDev 3 nvmlDev 3 busId 56000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234189:243538 [1] NCCL INFO comm 0x7fb04004d320 rank 1 nranks 32 cudaDev 1 nvmlDev 1 busId 27000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+aieflopsvip-kmaker-033145120215:234193:243540 [5] NCCL INFO comm 0x7fc77404d4a0 rank 5 nranks 32 cudaDev 5 nvmlDev 5 busId 92000 commId 0x6ea2d0a76d1b134d - Init COMPLETE
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/opt/conda/envs/llava/lib/python3.10/site-packages/torch/autograd/__init__.py:266: UserWarning: c10d::broadcast_: an autograd kernel was not registered to the Autograd key(s) but we are trying to backprop through it. This may lead to silently incorrect behavior. This behavior is deprecated and will be removed in a future version of PyTorch. If your operator is differentiable, please ensure you have registered an autograd kernel to the correct Autograd key (e.g. DispatchKey::Autograd, DispatchKey::CompositeImplicitAutograd). If your operator is not differentiable, or to squash this warning and use the previous behavior, please register torch::CppFunction::makeFallthrough() to DispatchKey::Autograd. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/torch/csrc/autograd/autograd_not_implemented_fallback.cpp:63.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  0%|          | 1/2599 [00:14<10:29:21, 14.53s/it]                                                   {'loss': 1.6062, 'learning_rate': 2.564102564102564e-07, 'epoch': 0.0}
+  0%|          | 1/2599 [00:14<10:29:21, 14.53s/it]  0%|          | 2/2599 [00:17<5:39:28,  7.84s/it]                                                   {'loss': 1.623, 'learning_rate': 5.128205128205128e-07, 'epoch': 0.0}
+  0%|          | 2/2599 [00:17<5:39:28,  7.84s/it]  0%|          | 3/2599 [00:21<4:17:04,  5.94s/it]                                                  {'loss': 1.6203, 'learning_rate': 7.692307692307694e-07, 'epoch': 0.0}
+  0%|          | 3/2599 [00:21<4:17:04,  5.94s/it]  0%|          | 4/2599 [00:25<3:47:02,  5.25s/it]                                                  {'loss': 1.5885, 'learning_rate': 1.0256410256410257e-06, 'epoch': 0.0}
+  0%|          | 4/2599 [00:25<3:47:02,  5.25s/it]  0%|          | 5/2599 [00:28<3:10:01,  4.40s/it]                                                  {'loss': 1.5773, 'learning_rate': 1.282051282051282e-06, 'epoch': 0.0}
+  0%|          | 5/2599 [00:28<3:10:01,  4.40s/it]  0%|          | 6/2599 [00:32<3:04:51,  4.28s/it]                                                  {'loss': 1.4671, 'learning_rate': 1.5384615384615387e-06, 'epoch': 0.0}
+  0%|          | 6/2599 [00:32<3:04:51,  4.28s/it]  0%|          | 7/2599 [00:35<2:45:24,  3.83s/it]                                                  {'loss': 1.4321, 'learning_rate': 1.794871794871795e-06, 'epoch': 0.0}
+  0%|          | 7/2599 [00:35<2:45:24,  3.83s/it]  0%|          | 8/2599 [00:38<2:29:08,  3.45s/it]                                                  {'loss': 1.3667, 'learning_rate': 2.0512820512820513e-06, 'epoch': 0.0}
+  0%|          | 8/2599 [00:38<2:29:08,  3.45s/it]  0%|          | 9/2599 [00:40<2:19:46,  3.24s/it]                                                  {'loss': 1.3844, 'learning_rate': 2.307692307692308e-06, 'epoch': 0.0}
+  0%|          | 9/2599 [00:40<2:19:46,  3.24s/it]  0%|          | 10/2599 [00:43<2:11:09,  3.04s/it]                                                   {'loss': 1.3206, 'learning_rate': 2.564102564102564e-06, 'epoch': 0.0}
+  0%|          | 10/2599 [00:43<2:11:09,  3.04s/it]Token indices sequence length is longer than the specified maximum sequence length for this model (2398 > 2048). Running this sequence through the model will result in indexing errors
+  0%|          | 11/2599 [00:46<2:08:39,  2.98s/it]                                                   {'loss': 1.3685, 'learning_rate': 2.8205128205128207e-06, 'epoch': 0.0}
+  0%|          | 11/2599 [00:46<2:08:39,  2.98s/it]  0%|          | 12/2599 [00:49<2:11:23,  3.05s/it]                                                   {'loss': 1.3244, 'learning_rate': 3.0769230769230774e-06, 'epoch': 0.0}
+  0%|          | 12/2599 [00:49<2:11:23,  3.05s/it]  1%|          | 13/2599 [00:53<2:26:47,  3.41s/it]                                                   {'loss': 1.2554, 'learning_rate': 3.3333333333333333e-06, 'epoch': 0.01}
+  1%|          | 13/2599 [00:53<2:26:47,  3.41s/it]  1%|          | 14/2599 [00:56<2:22:20,  3.30s/it]                                                   {'loss': 1.2165, 'learning_rate': 3.58974358974359e-06, 'epoch': 0.01}
+  1%|          | 14/2599 [00:56<2:22:20,  3.30s/it]  1%|          | 15/2599 [01:00<2:27:15,  3.42s/it]                                                   {'loss': 1.2573, 'learning_rate': 3.846153846153847e-06, 'epoch': 0.01}
+  1%|          | 15/2599 [01:00<2:27:15,  3.42s/it]  1%|          | 16/2599 [01:03<2:28:28,  3.45s/it]                                                   {'loss': 1.2311, 'learning_rate': 4.102564102564103e-06, 'epoch': 0.01}
+  1%|          | 16/2599 [01:03<2:28:28,  3.45s/it]  1%|          | 17/2599 [01:07<2:28:57,  3.46s/it]                                                   {'loss': 1.1586, 'learning_rate': 4.358974358974359e-06, 'epoch': 0.01}
+  1%|          | 17/2599 [01:07<2:28:57,  3.46s/it][2024-08-26 17:29:16,186] [WARNING] [stage3.py:1991:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 18/2599 [01:13<2:59:11,  4.17s/it]                                                   {'loss': 0.9002, 'learning_rate': 4.615384615384616e-06, 'epoch': 0.01}
+  1%|          | 18/2599 [01:13<2:59:11,  4.17s/it]  1%|          | 19/2599 [01:16<2:53:09,  4.03s/it]                                                   {'loss': 1.2019, 'learning_rate': 4.871794871794872e-06, 'epoch': 0.01}
+  1%|          | 19/2599 [01:16<2:53:09,  4.03s/it]  1%|          | 20/2599 [01:19<2:37:21,  3.66s/it]                                                   {'loss': 1.1976, 'learning_rate': 5.128205128205128e-06, 'epoch': 0.01}
+  1%|          | 20/2599 [01:19<2:37:21,  3.66s/it]  1%|          | 21/2599 [01:25<3:02:13,  4.24s/it]                                                   {'loss': 0.927, 'learning_rate': 5.384615384615385e-06, 'epoch': 0.01}
+  1%|          | 21/2599 [01:25<3:02:13,  4.24s/it]  1%|          | 22/2599 [01:30<3:10:00,  4.42s/it]                                                   {'loss': 1.1615, 'learning_rate': 5.641025641025641e-06, 'epoch': 0.01}
+  1%|          | 22/2599 [01:30<3:10:00,  4.42s/it]  1%|          | 23/2599 [01:34<3:02:14,  4.24s/it]                                                   {'loss': 1.1974, 'learning_rate': 5.897435897435898e-06, 'epoch': 0.01}
+  1%|          | 23/2599 [01:34<3:02:14,  4.24s/it]  1%|          | 24/2599 [01:37<2:56:31,  4.11s/it]                                                   {'loss': 1.1676, 'learning_rate': 6.153846153846155e-06, 'epoch': 0.01}
+  1%|          | 24/2599 [01:37<2:56:31,  4.11s/it]  1%|          | 25/2599 [01:40<2:38:16,  3.69s/it]                                                   {'loss': 1.1398, 'learning_rate': 6.410256410256412e-06, 'epoch': 0.01}
+  1%|          | 25/2599 [01:40<2:38:16,  3.69s/it]  1%|          | 26/2599 [01:43<2:28:06,  3.45s/it]                                                   {'loss': 1.1246, 'learning_rate': 6.666666666666667e-06, 'epoch': 0.01}
+  1%|          | 26/2599 [01:43<2:28:06,  3.45s/it]  1%|          | 27/2599 [01:48<2:48:52,  3.94s/it]                                                   {'loss': 0.8475, 'learning_rate': 6.923076923076923e-06, 'epoch': 0.01}
+  1%|          | 27/2599 [01:48<2:48:52,  3.94s/it][2024-08-26 17:29:57,536] [WARNING] [stage3.py:1991:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 28/2599 [01:54<3:16:21,  4.58s/it]                                                   {'loss': 1.1775, 'learning_rate': 7.17948717948718e-06, 'epoch': 0.01}
+  1%|          | 28/2599 [01:54<3:16:21,  4.58s/it]  1%|          | 29/2599 [02:01<3:40:49,  5.16s/it]                                                   {'loss': 0.8107, 'learning_rate': 7.435897435897437e-06, 'epoch': 0.01}
+  1%|          | 29/2599 [02:01<3:40:49,  5.16s/it]  1%|          | 30/2599 [02:04<3:14:10,  4.54s/it]                                                   {'loss': 1.1328, 'learning_rate': 7.692307692307694e-06, 'epoch': 0.01}
+  1%|          | 30/2599 [02:04<3:14:10,  4.54s/it]  1%|          | 31/2599 [02:06<2:47:41,  3.92s/it]                                                   {'loss': 1.1517, 'learning_rate': 7.948717948717949e-06, 'epoch': 0.01}
+  1%|          | 31/2599 [02:06<2:47:41,  3.92s/it]  1%|          | 32/2599 [02:09<2:34:10,  3.60s/it]                                                   {'loss': 1.108, 'learning_rate': 8.205128205128205e-06, 'epoch': 0.01}
+  1%|          | 32/2599 [02:09<2:34:10,  3.60s/it]  1%|▏         | 33/2599 [02:12<2:25:35,  3.40s/it]                                                   {'loss': 1.1309, 'learning_rate': 8.461538461538462e-06, 'epoch': 0.01}
+  1%|▏         | 33/2599 [02:12<2:25:35,  3.40s/it]  1%|▏         | 34/2599 [02:15<2:21:30,  3.31s/it]                                                   {'loss': 1.106, 'learning_rate': 8.717948717948719e-06, 'epoch': 0.01}
+  1%|▏         | 34/2599 [02:15<2:21:30,  3.31s/it]  1%|▏         | 35/2599 [02:20<2:41:48,  3.79s/it]                                                   {'loss': 1.0784, 'learning_rate': 8.974358974358976e-06, 'epoch': 0.01}
+  1%|▏         | 35/2599 [02:20<2:41:48,  3.79s/it]  1%|▏         | 36/2599 [02:23<2:34:38,  3.62s/it]                                                   {'loss': 1.124, 'learning_rate': 9.230769230769232e-06, 'epoch': 0.01}
+  1%|▏         | 36/2599 [02:23<2:34:38,  3.62s/it]  1%|▏         | 37/2599 [02:26<2:23:21,  3.36s/it]                                                   {'loss': 1.0944, 'learning_rate': 9.487179487179487e-06, 'epoch': 0.01}
+  1%|▏         | 37/2599 [02:26<2:23:21,  3.36s/it]  1%|▏         | 38/2599 [02:29<2:15:50,  3.18s/it]                                                   {'loss': 1.0787, 'learning_rate': 9.743589743589744e-06, 'epoch': 0.01}
+  1%|▏         | 38/2599 [02:29<2:15:50,  3.18s/it]  2%|▏         | 39/2599 [02:32<2:18:31,  3.25s/it]                                                   {'loss': 1.0784, 'learning_rate': 1e-05, 'epoch': 0.02}
+  2%|▏         | 39/2599 [02:32<2:18:31,  3.25s/it]  2%|▏         | 40/2599 [02:35<2:18:54,  3.26s/it]                                                   {'loss': 1.1245, 'learning_rate': 1.0256410256410256e-05, 'epoch': 0.02}
+  2%|▏         | 40/2599 [02:35<2:18:54,  3.26s/it]  2%|▏         | 41/2599 [02:40<2:33:02,  3.59s/it]                                                   {'loss': 1.0997, 'learning_rate': 1.0512820512820514e-05, 'epoch': 0.02}
+  2%|▏         | 41/2599 [02:40<2:33:02,  3.59s/it]  2%|▏         | 42/2599 [02:43<2:22:41,  3.35s/it]                                                   {'loss': 1.0969, 'learning_rate': 1.076923076923077e-05, 'epoch': 0.02}
+  2%|▏         | 42/2599 [02:43<2:22:41,  3.35s/it]  2%|▏         | 43/2599 [02:45<2:15:34,  3.18s/it]                                                   {'loss': 1.083, 'learning_rate': 1.1025641025641028e-05, 'epoch': 0.02}
+  2%|▏         | 43/2599 [02:45<2:15:34,  3.18s/it]  2%|▏         | 44/2599 [02:48<2:11:44,  3.09s/it]                                                   {'loss': 1.0688, 'learning_rate': 1.1282051282051283e-05, 'epoch': 0.02}
+  2%|▏         | 44/2599 [02:48<2:11:44,  3.09s/it]  2%|▏         | 45/2599 [02:51<2:01:46,  2.86s/it]                                                   {'loss': 1.1356, 'learning_rate': 1.1538461538461538e-05, 'epoch': 0.02}
+  2%|▏         | 45/2599 [02:51<2:01:46,  2.86s/it]  2%|▏         | 46/2599 [02:56<2:36:04,  3.67s/it]                                                   {'loss': 0.828, 'learning_rate': 1.1794871794871796e-05, 'epoch': 0.02}
+  2%|▏         | 46/2599 [02:56<2:36:04,  3.67s/it]  2%|▏         | 47/2599 [02:59<2:24:16,  3.39s/it]                                                   {'loss': 1.0495, 'learning_rate': 1.2051282051282051e-05, 'epoch': 0.02}
+  2%|▏         | 47/2599 [02:59<2:24:16,  3.39s/it]  2%|▏         | 48/2599 [03:02<2:20:36,  3.31s/it]                                                   {'loss': 1.0489, 'learning_rate': 1.230769230769231e-05, 'epoch': 0.02}
+  2%|▏         | 48/2599 [03:02<2:20:36,  3.31s/it]  2%|▏         | 49/2599 [03:08<2:52:17,  4.05s/it]                                                   {'loss': 0.7753, 'learning_rate': 1.2564102564102565e-05, 'epoch': 0.02}
+  2%|▏         | 49/2599 [03:08<2:52:17,  4.05s/it]  2%|▏         | 50/2599 [03:11<2:36:47,  3.69s/it]                                                   {'loss': 1.0359, 'learning_rate': 1.2820512820512823e-05, 'epoch': 0.02}
+  2%|▏         | 50/2599 [03:11<2:36:47,  3.69s/it]  2%|▏         | 51/2599 [03:16<3:03:18,  4.32s/it]                                                   {'loss': 0.8047, 'learning_rate': 1.3076923076923078e-05, 'epoch': 0.02}
+  2%|▏         | 51/2599 [03:16<3:03:18,  4.32s/it]  2%|▏         | 52/2599 [03:20<2:51:15,  4.03s/it]                                                   {'loss': 1.0925, 'learning_rate': 1.3333333333333333e-05, 'epoch': 0.02}
+  2%|▏         | 52/2599 [03:20<2:51:15,  4.03s/it]  2%|▏         | 53/2599 [03:23<2:39:15,  3.75s/it]                                                   {'loss': 1.0425, 'learning_rate': 1.3589743589743592e-05, 'epoch': 0.02}
+  2%|▏         | 53/2599 [03:23<2:39:15,  3.75s/it]  2%|▏         | 54/2599 [03:26<2:28:30,  3.50s/it]                                                   {'loss': 1.0265, 'learning_rate': 1.3846153846153847e-05, 'epoch': 0.02}
+  2%|▏         | 54/2599 [03:26<2:28:30,  3.50s/it]  2%|▏         | 55/2599 [03:28<2:13:31,  3.15s/it]                                                   {'loss': 1.0734, 'learning_rate': 1.4102564102564105e-05, 'epoch': 0.02}
+  2%|▏         | 55/2599 [03:28<2:13:31,  3.15s/it]  2%|▏         | 56/2599 [03:32<2:20:28,  3.31s/it]                                                   {'loss': 1.007, 'learning_rate': 1.435897435897436e-05, 'epoch': 0.02}
+  2%|▏         | 56/2599 [03:32<2:20:28,  3.31s/it]  2%|▏         | 57/2599 [03:34<2:08:55,  3.04s/it]                                                   {'loss': 1.0948, 'learning_rate': 1.4615384615384615e-05, 'epoch': 0.02}
+  2%|▏         | 57/2599 [03:34<2:08:55,  3.04s/it]  2%|▏         | 58/2599 [03:38<2:13:07,  3.14s/it]                                                   {'loss': 1.0431, 'learning_rate': 1.4871794871794874e-05, 'epoch': 0.02}
+  2%|▏         | 58/2599 [03:38<2:13:07,  3.14s/it]  2%|▏         | 59/2599 [03:40<2:07:06,  3.00s/it]                                                   {'loss': 1.1121, 'learning_rate': 1.5128205128205129e-05, 'epoch': 0.02}
+  2%|▏         | 59/2599 [03:40<2:07:06,  3.00s/it]  2%|▏         | 60/2599 [03:44<2:12:29,  3.13s/it]                                                   {'loss': 1.0335, 'learning_rate': 1.5384615384615387e-05, 'epoch': 0.02}
+  2%|▏         | 60/2599 [03:44<2:12:29,  3.13s/it]  2%|▏         | 61/2599 [03:46<2:05:51,  2.98s/it]                                                   {'loss': 1.0572, 'learning_rate': 1.5641025641025644e-05, 'epoch': 0.02}
+  2%|▏         | 61/2599 [03:46<2:05:51,  2.98s/it]  2%|▏         | 62/2599 [03:49<2:01:42,  2.88s/it]                                                   {'loss': 1.0351, 'learning_rate': 1.5897435897435897e-05, 'epoch': 0.02}
+  2%|▏         | 62/2599 [03:49<2:01:42,  2.88s/it]  2%|▏         | 63/2599 [03:53<2:16:27,  3.23s/it]                                                   {'loss': 1.0203, 'learning_rate': 1.6153846153846154e-05, 'epoch': 0.02}
+  2%|▏         | 63/2599 [03:53<2:16:27,  3.23s/it]  2%|▏         | 64/2599 [03:56<2:14:54,  3.19s/it]                                                   {'loss': 1.0195, 'learning_rate': 1.641025641025641e-05, 'epoch': 0.02}
+  2%|▏         | 64/2599 [03:56<2:14:54,  3.19s/it]  3%|▎         | 65/2599 [03:59<2:06:08,  2.99s/it]                                                   {'loss': 1.0638, 'learning_rate': 1.6666666666666667e-05, 'epoch': 0.03}
+  3%|▎         | 65/2599 [03:59<2:06:08,  2.99s/it]  3%|▎         | 66/2599 [04:01<2:03:44,  2.93s/it]                                                   {'loss': 1.0938, 'learning_rate': 1.6923076923076924e-05, 'epoch': 0.03}
+  3%|▎         | 66/2599 [04:01<2:03:44,  2.93s/it]  3%|▎         | 67/2599 [04:04<2:01:21,  2.88s/it]                                                   {'loss': 1.0087, 'learning_rate': 1.717948717948718e-05, 'epoch': 0.03}
+  3%|▎         | 67/2599 [04:04<2:01:21,  2.88s/it]  3%|▎         | 68/2599 [04:07<1:57:56,  2.80s/it]                                                   {'loss': 1.0601, 'learning_rate': 1.7435897435897438e-05, 'epoch': 0.03}
+  3%|▎         | 68/2599 [04:07<1:57:56,  2.80s/it]  3%|▎         | 69/2599 [04:10<2:00:20,  2.85s/it]                                                   {'loss': 1.0919, 'learning_rate': 1.7692307692307694e-05, 'epoch': 0.03}
+  3%|▎         | 69/2599 [04:10<2:00:20,  2.85s/it]  3%|▎         | 70/2599 [04:13<2:03:26,  2.93s/it]                                                   {'loss': 1.0719, 'learning_rate': 1.794871794871795e-05, 'epoch': 0.03}
+  3%|▎         | 70/2599 [04:13<2:03:26,  2.93s/it]  3%|▎         | 71/2599 [04:16<2:07:59,  3.04s/it]                                                   {'loss': 1.036, 'learning_rate': 1.8205128205128208e-05, 'epoch': 0.03}
+  3%|▎         | 71/2599 [04:16<2:07:59,  3.04s/it]  3%|▎         | 72/2599 [04:19<2:05:08,  2.97s/it]                                                   {'loss': 1.0439, 'learning_rate': 1.8461538461538465e-05, 'epoch': 0.03}
+  3%|▎         | 72/2599 [04:19<2:05:08,  2.97s/it]  3%|▎         | 73/2599 [04:21<1:57:19,  2.79s/it]                                                   {'loss': 1.0427, 'learning_rate': 1.8717948717948718e-05, 'epoch': 0.03}
+  3%|▎         | 73/2599 [04:21<1:57:19,  2.79s/it]  3%|▎         | 74/2599 [04:24<2:00:50,  2.87s/it]                                                   {'loss': 1.0228, 'learning_rate': 1.8974358974358975e-05, 'epoch': 0.03}
+  3%|▎         | 74/2599 [04:24<2:00:50,  2.87s/it]  3%|▎         | 75/2599 [04:27<1:56:33,  2.77s/it]                                                   {'loss': 1.0314, 'learning_rate': 1.923076923076923e-05, 'epoch': 0.03}
+  3%|▎         | 75/2599 [04:27<1:56:33,  2.77s/it]  3%|▎         | 76/2599 [04:29<1:52:58,  2.69s/it]                                                   {'loss': 1.0974, 'learning_rate': 1.9487179487179488e-05, 'epoch': 0.03}
+  3%|▎         | 76/2599 [04:29<1:52:58,  2.69s/it]  3%|▎         | 77/2599 [04:32<1:57:45,  2.80s/it]                                                   {'loss': 1.0442, 'learning_rate': 1.9743589743589745e-05, 'epoch': 0.03}
+  3%|▎         | 77/2599 [04:32<1:57:45,  2.80s/it]  3%|▎         | 78/2599 [04:36<2:06:56,  3.02s/it]                                                   {'loss': 1.0381, 'learning_rate': 2e-05, 'epoch': 0.03}
+  3%|▎         | 78/2599 [04:36<2:06:56,  3.02s/it]  3%|▎         | 79/2599 [04:39<2:09:57,  3.09s/it]                                                   {'loss': 1.1014, 'learning_rate': 1.9999992235312136e-05, 'epoch': 0.03}
+  3%|▎         | 79/2599 [04:39<2:09:57,  3.09s/it]  3%|▎         | 80/2599 [04:42<2:03:51,  2.95s/it]                                                   {'loss': 1.0653, 'learning_rate': 1.9999968941260596e-05, 'epoch': 0.03}
+  3%|▎         | 80/2599 [04:42<2:03:51,  2.95s/it]  3%|▎         | 81/2599 [04:45<2:03:24,  2.94s/it]                                                   {'loss': 1.0864, 'learning_rate': 1.9999930117881548e-05, 'epoch': 0.03}
+  3%|▎         | 81/2599 [04:45<2:03:24,  2.94s/it]  3%|▎         | 82/2599 [04:48<2:07:21,  3.04s/it]                                                   {'loss': 1.0017, 'learning_rate': 1.99998757652353e-05, 'epoch': 0.03}
+  3%|▎         | 82/2599 [04:48<2:07:21,  3.04s/it]  3%|▎         | 83/2599 [04:51<2:07:56,  3.05s/it]                                                   {'loss': 1.06, 'learning_rate': 1.999980588340624e-05, 'epoch': 0.03}
+  3%|▎         | 83/2599 [04:51<2:07:56,  3.05s/it]  3%|▎         | 84/2599 [04:55<2:16:29,  3.26s/it]                                                   {'loss': 1.0673, 'learning_rate': 1.9999720472502902e-05, 'epoch': 0.03}
+  3%|▎         | 84/2599 [04:55<2:16:29,  3.26s/it]  3%|▎         | 85/2599 [04:57<2:05:39,  3.00s/it]                                                   {'loss': 1.0365, 'learning_rate': 1.9999619532657915e-05, 'epoch': 0.03}
+  3%|▎         | 85/2599 [04:57<2:05:39,  3.00s/it]  3%|▎         | 86/2599 [05:00<2:02:43,  2.93s/it]                                                   {'loss': 1.0626, 'learning_rate': 1.9999503064028043e-05, 'epoch': 0.03}
+  3%|▎         | 86/2599 [05:00<2:02:43,  2.93s/it]  3%|▎         | 87/2599 [05:03<2:08:22,  3.07s/it]                                                   {'loss': 1.0141, 'learning_rate': 1.9999371066794146e-05, 'epoch': 0.03}
+  3%|▎         | 87/2599 [05:03<2:08:22,  3.07s/it]  3%|▎         | 88/2599 [05:06<2:03:53,  2.96s/it]                                                   {'loss': 1.073, 'learning_rate': 1.999922354116121e-05, 'epoch': 0.03}
+  3%|▎         | 88/2599 [05:06<2:03:53,  2.96s/it]  3%|▎         | 89/2599 [05:10<2:13:56,  3.20s/it]                                                   {'loss': 1.0561, 'learning_rate': 1.9999060487358333e-05, 'epoch': 0.03}
+  3%|▎         | 89/2599 [05:10<2:13:56,  3.20s/it]  3%|▎         | 90/2599 [05:12<2:03:51,  2.96s/it]                                                   {'loss': 1.0624, 'learning_rate': 1.9998881905638727e-05, 'epoch': 0.03}
+  3%|▎         | 90/2599 [05:12<2:03:51,  2.96s/it]  4%|▎         | 91/2599 [05:16<2:12:00,  3.16s/it]                                                   {'loss': 1.0719, 'learning_rate': 1.999868779627972e-05, 'epoch': 0.04}
+  4%|▎         | 91/2599 [05:16<2:12:00,  3.16s/it]  4%|▎         | 92/2599 [05:19<2:09:25,  3.10s/it]                                                   {'loss': 1.0263, 'learning_rate': 1.9998478159582747e-05, 'epoch': 0.04}
+  4%|▎         | 92/2599 [05:19<2:09:25,  3.10s/it]  4%|▎         | 93/2599 [05:22<2:14:13,  3.21s/it]                                                   {'loss': 1.0504, 'learning_rate': 1.9998252995873367e-05, 'epoch': 0.04}
+  4%|▎         | 93/2599 [05:22<2:14:13,  3.21s/it]  4%|▎         | 94/2599 [05:25<2:08:29,  3.08s/it]                                                   {'loss': 1.0604, 'learning_rate': 1.9998012305501243e-05, 'epoch': 0.04}
+  4%|▎         | 94/2599 [05:25<2:08:29,  3.08s/it]  4%|▎         | 95/2599 [05:28<2:10:11,  3.12s/it]                                                   {'loss': 1.018, 'learning_rate': 1.999775608884015e-05, 'epoch': 0.04}
+  4%|▎         | 95/2599 [05:28<2:10:11,  3.12s/it]  4%|▎         | 96/2599 [05:31<2:08:08,  3.07s/it]                                                   {'loss': 1.0172, 'learning_rate': 1.9997484346287973e-05, 'epoch': 0.04}
+  4%|▎         | 96/2599 [05:31<2:08:08,  3.07s/it]  4%|▎         | 97/2599 [05:35<2:15:48,  3.26s/it]                                                   {'loss': 1.0521, 'learning_rate': 1.9997197078266723e-05, 'epoch': 0.04}
+  4%|▎         | 97/2599 [05:35<2:15:48,  3.26s/it]  4%|▍         | 98/2599 [05:39<2:27:40,  3.54s/it]                                                   {'loss': 1.0273, 'learning_rate': 1.99968942852225e-05, 'epoch': 0.04}
+  4%|▍         | 98/2599 [05:39<2:27:40,  3.54s/it]  4%|▍         | 99/2599 [05:42<2:14:09,  3.22s/it]                                                   {'loss': 1.0643, 'learning_rate': 1.9996575967625525e-05, 'epoch': 0.04}
+  4%|▍         | 99/2599 [05:42<2:14:09,  3.22s/it]  4%|▍         | 100/2599 [05:46<2:27:11,  3.53s/it]                                                    {'loss': 1.0109, 'learning_rate': 1.999624212597013e-05, 'epoch': 0.04}
+  4%|▍         | 100/2599 [05:46<2:27:11,  3.53s/it]  4%|▍         | 101/2599 [05:50<2:31:49,  3.65s/it]                                                    {'loss': 1.0523, 'learning_rate': 1.9995892760774738e-05, 'epoch': 0.04}
+  4%|▍         | 101/2599 [05:50<2:31:49,  3.65s/it]  4%|▍         | 102/2599 [05:55<2:55:59,  4.23s/it]                                                    {'loss': 1.0245, 'learning_rate': 1.9995527872581903e-05, 'epoch': 0.04}
+  4%|▍         | 102/2599 [05:55<2:55:59,  4.23s/it]  4%|▍         | 103/2599 [05:59<2:47:52,  4.04s/it]                                                    {'loss': 1.0168, 'learning_rate': 1.9995147461958267e-05, 'epoch': 0.04}
+  4%|▍         | 103/2599 [05:59<2:47:52,  4.04s/it]  4%|▍         | 104/2599 [06:03<2:43:00,  3.92s/it]                                                    {'loss': 1.0314, 'learning_rate': 1.999475152949459e-05, 'epoch': 0.04}
+  4%|▍         | 104/2599 [06:03<2:43:00,  3.92s/it]  4%|▍         | 105/2599 [06:06<2:31:34,  3.65s/it]                                                    {'loss': 1.0529, 'learning_rate': 1.9994340075805724e-05, 'epoch': 0.04}
+  4%|▍         | 105/2599 [06:06<2:31:34,  3.65s/it]  4%|▍         | 106/2599 [06:09<2:31:16,  3.64s/it]                                                    {'loss': 0.9988, 'learning_rate': 1.9993913101530635e-05, 'epoch': 0.04}
+  4%|▍         | 106/2599 [06:09<2:31:16,  3.64s/it]  4%|▍         | 107/2599 [06:13<2:27:11,  3.54s/it]                                                    {'loss': 1.0842, 'learning_rate': 1.9993470607332387e-05, 'epoch': 0.04}
+  4%|▍         | 107/2599 [06:13<2:27:11,  3.54s/it]  4%|▍         | 108/2599 [06:17<2:40:20,  3.86s/it]                                                    {'loss': 1.0097, 'learning_rate': 1.9993012593898146e-05, 'epoch': 0.04}
+  4%|▍         | 108/2599 [06:17<2:40:20,  3.86s/it]  4%|▍         | 109/2599 [06:24<3:10:53,  4.60s/it]                                                    {'loss': 1.0156, 'learning_rate': 1.9992539061939175e-05, 'epoch': 0.04}
+  4%|▍         | 109/2599 [06:24<3:10:53,  4.60s/it]  4%|▍         | 110/2599 [06:28<3:12:56,  4.65s/it]                                                    {'loss': 1.0773, 'learning_rate': 1.9992050012190845e-05, 'epoch': 0.04}
+  4%|▍         | 110/2599 [06:28<3:12:56,  4.65s/it]  4%|▍         | 111/2599 [06:31<2:52:31,  4.16s/it]                                                    {'loss': 1.0813, 'learning_rate': 1.9991545445412614e-05, 'epoch': 0.04}
+  4%|▍         | 111/2599 [06:31<2:52:31,  4.16s/it]  4%|▍         | 112/2599 [06:35<2:49:56,  4.10s/it]                                                    {'loss': 1.0379, 'learning_rate': 1.9991025362388044e-05, 'epoch': 0.04}
+  4%|▍         | 112/2599 [06:35<2:49:56,  4.10s/it]  4%|▍         | 113/2599 [06:38<2:32:09,  3.67s/it]                                                    {'loss': 1.0115, 'learning_rate': 1.9990489763924796e-05, 'epoch': 0.04}
+  4%|▍         | 113/2599 [06:38<2:32:09,  3.67s/it]  4%|▍         | 114/2599 [06:40<2:17:34,  3.32s/it]                                                    {'loss': 1.0611, 'learning_rate': 1.9989938650854618e-05, 'epoch': 0.04}
+  4%|▍         | 114/2599 [06:40<2:17:34,  3.32s/it]  4%|▍         | 115/2599 [06:43<2:12:57,  3.21s/it]                                                    {'loss': 1.0626, 'learning_rate': 1.9989372024033352e-05, 'epoch': 0.04}
+  4%|▍         | 115/2599 [06:43<2:12:57,  3.21s/it]  4%|▍         | 116/2599 [06:46<2:06:38,  3.06s/it]                                                    {'loss': 1.0104, 'learning_rate': 1.9988789884340938e-05, 'epoch': 0.04}
+  4%|▍         | 116/2599 [06:46<2:06:38,  3.06s/it]  5%|▍         | 117/2599 [06:49<2:07:36,  3.08s/it]                                                    {'loss': 1.0249, 'learning_rate': 1.9988192232681398e-05, 'epoch': 0.05}
+  5%|▍         | 117/2599 [06:49<2:07:36,  3.08s/it]  5%|▍         | 118/2599 [06:53<2:14:00,  3.24s/it]                                                    {'loss': 1.0199, 'learning_rate': 1.9987579069982856e-05, 'epoch': 0.05}
+  5%|▍         | 118/2599 [06:53<2:14:00,  3.24s/it]  5%|▍         | 119/2599 [06:57<2:28:46,  3.60s/it]                                                    {'loss': 0.9693, 'learning_rate': 1.9986950397197503e-05, 'epoch': 0.05}
+  5%|▍         | 119/2599 [06:57<2:28:46,  3.60s/it]  5%|▍         | 120/2599 [07:01<2:30:13,  3.64s/it]                                                    {'loss': 1.031, 'learning_rate': 1.998630621530164e-05, 'epoch': 0.05}
+  5%|▍         | 120/2599 [07:01<2:30:13,  3.64s/it]  5%|▍         | 121/2599 [07:04<2:17:47,  3.34s/it]                                                    {'loss': 1.1107, 'learning_rate': 1.9985646525295634e-05, 'epoch': 0.05}
+  5%|▍         | 121/2599 [07:04<2:17:47,  3.34s/it]  5%|▍         | 122/2599 [07:07<2:13:46,  3.24s/it]                                                    {'loss': 1.014, 'learning_rate': 1.9984971328203945e-05, 'epoch': 0.05}
+  5%|▍         | 122/2599 [07:07<2:13:46,  3.24s/it]  5%|▍         | 123/2599 [07:10<2:08:38,  3.12s/it]                                                    {'loss': 1.0289, 'learning_rate': 1.9984280625075115e-05, 'epoch': 0.05}
+  5%|▍         | 123/2599 [07:10<2:08:38,  3.12s/it]  5%|▍         | 124/2599 [07:12<2:00:40,  2.93s/it]                                                    {'loss': 1.0365, 'learning_rate': 1.998357441698176e-05, 'epoch': 0.05}
+  5%|▍         | 124/2599 [07:12<2:00:40,  2.93s/it]  5%|▍         | 125/2599 [07:15<1:56:54,  2.84s/it]                                                    {'loss': 1.0524, 'learning_rate': 1.9982852705020572e-05, 'epoch': 0.05}
+  5%|▍         | 125/2599 [07:15<1:56:54,  2.84s/it]  5%|▍         | 126/2599 [07:18<1:58:11,  2.87s/it]                                                    {'loss': 1.0267, 'learning_rate': 1.9982115490312334e-05, 'epoch': 0.05}
+  5%|▍         | 126/2599 [07:18<1:58:11,  2.87s/it]  5%|▍         | 127/2599 [07:23<2:25:43,  3.54s/it]                                                    {'loss': 0.9794, 'learning_rate': 1.9981362774001886e-05, 'epoch': 0.05}
+  5%|▍         | 127/2599 [07:23<2:25:43,  3.54s/it]  5%|▍         | 128/2599 [07:26<2:28:33,  3.61s/it]                                                    {'loss': 1.0169, 'learning_rate': 1.9980594557258158e-05, 'epoch': 0.05}
+  5%|▍         | 128/2599 [07:26<2:28:33,  3.61s/it]  5%|▍         | 129/2599 [07:32<2:53:11,  4.21s/it]                                                    {'loss': 1.0243, 'learning_rate': 1.9979810841274135e-05, 'epoch': 0.05}
+  5%|▍         | 129/2599 [07:32<2:53:11,  4.21s/it]  5%|▌         | 130/2599 [07:38<3:09:03,  4.59s/it]                                                    {'loss': 0.7519, 'learning_rate': 1.9979011627266884e-05, 'epoch': 0.05}
+  5%|▌         | 130/2599 [07:38<3:09:03,  4.59s/it]  5%|▌         | 131/2599 [07:40<2:41:52,  3.94s/it]                                                    {'loss': 1.0552, 'learning_rate': 1.997819691647753e-05, 'epoch': 0.05}
+  5%|▌         | 131/2599 [07:40<2:41:52,  3.94s/it]  5%|▌         | 132/2599 [07:43<2:28:23,  3.61s/it]                                                    {'loss': 1.0479, 'learning_rate': 1.9977366710171274e-05, 'epoch': 0.05}
+  5%|▌         | 132/2599 [07:43<2:28:23,  3.61s/it]  5%|▌         | 133/2599 [07:48<2:47:20,  4.07s/it]                                                    {'loss': 0.7912, 'learning_rate': 1.9976521009637366e-05, 'epoch': 0.05}
+  5%|▌         | 133/2599 [07:48<2:47:20,  4.07s/it]  5%|▌         | 134/2599 [07:51<2:30:40,  3.67s/it]                                                    {'loss': 0.956, 'learning_rate': 1.9975659816189137e-05, 'epoch': 0.05}
+  5%|▌         | 134/2599 [07:51<2:30:40,  3.67s/it]  5%|▌         | 135/2599 [07:54<2:24:25,  3.52s/it]                                                    {'loss': 1.0501, 'learning_rate': 1.9974783131163957e-05, 'epoch': 0.05}
+  5%|▌         | 135/2599 [07:54<2:24:25,  3.52s/it]  5%|▌         | 136/2599 [07:58<2:30:37,  3.67s/it]                                                    {'loss': 1.0534, 'learning_rate': 1.997389095592327e-05, 'epoch': 0.05}
+  5%|▌         | 136/2599 [07:58<2:30:37,  3.67s/it]Token indices sequence length is longer than the specified maximum sequence length for this model (2715 > 2048). Running this sequence through the model will result in indexing errors
+  5%|▌         | 137/2599 [08:01<2:29:15,  3.64s/it]                                                    {'loss': 1.0578, 'learning_rate': 1.9972983291852565e-05, 'epoch': 0.05}
+  5%|▌         | 137/2599 [08:01<2:29:15,  3.64s/it]  5%|▌         | 138/2599 [08:04<2:20:39,  3.43s/it]                                                    {'loss': 1.0494, 'learning_rate': 1.9972060140361384e-05, 'epoch': 0.05}
+  5%|▌         | 138/2599 [08:04<2:20:39,  3.43s/it]  5%|▌         | 139/2599 [08:07<2:06:34,  3.09s/it]                                                    {'loss': 1.0095, 'learning_rate': 1.9971121502883332e-05, 'epoch': 0.05}
+  5%|▌         | 139/2599 [08:07<2:06:34,  3.09s/it]  5%|▌         | 140/2599 [08:10<2:07:00,  3.10s/it]                                                    {'loss': 1.0045, 'learning_rate': 1.997016738087605e-05, 'epoch': 0.05}
+  5%|▌         | 140/2599 [08:10<2:07:00,  3.10s/it]  5%|▌         | 141/2599 [08:12<1:59:15,  2.91s/it]                                                    {'loss': 1.0129, 'learning_rate': 1.9969197775821227e-05, 'epoch': 0.05}
+  5%|▌         | 141/2599 [08:12<1:59:15,  2.91s/it]  5%|▌         | 142/2599 [08:16<2:08:56,  3.15s/it]                                                    {'loss': 1.01, 'learning_rate': 1.9968212689224603e-05, 'epoch': 0.05}
+  5%|▌         | 142/2599 [08:16<2:08:56,  3.15s/it]  6%|▌         | 143/2599 [08:20<2:21:53,  3.47s/it]                                                    {'loss': 1.0468, 'learning_rate': 1.9967212122615958e-05, 'epoch': 0.06}
+  6%|▌         | 143/2599 [08:20<2:21:53,  3.47s/it]  6%|▌         | 144/2599 [08:24<2:20:26,  3.43s/it]                                                    {'loss': 0.9889, 'learning_rate': 1.9966196077549106e-05, 'epoch': 0.06}
+  6%|▌         | 144/2599 [08:24<2:20:26,  3.43s/it]  6%|▌         | 145/2599 [08:26<2:14:02,  3.28s/it]                                                    {'loss': 1.0188, 'learning_rate': 1.99651645556019e-05, 'epoch': 0.06}
+  6%|▌         | 145/2599 [08:26<2:14:02,  3.28s/it]  6%|▌         | 146/2599 [08:31<2:24:34,  3.54s/it]                                                    {'loss': 1.0204, 'learning_rate': 1.996411755837623e-05, 'epoch': 0.06}
+  6%|▌         | 146/2599 [08:31<2:24:34,  3.54s/it]  6%|▌         | 147/2599 [08:34<2:20:46,  3.44s/it]                                                    {'loss': 0.978, 'learning_rate': 1.996305508749802e-05, 'epoch': 0.06}
+  6%|▌         | 147/2599 [08:34<2:20:46,  3.44s/it]  6%|▌         | 148/2599 [08:37<2:17:04,  3.36s/it]                                                    {'loss': 1.0542, 'learning_rate': 1.9961977144617225e-05, 'epoch': 0.06}
+  6%|▌         | 148/2599 [08:37<2:17:04,  3.36s/it]  6%|▌         | 149/2599 [08:42<2:42:29,  3.98s/it]                                                    {'loss': 0.7865, 'learning_rate': 1.996088373140781e-05, 'epoch': 0.06}
+  6%|▌         | 149/2599 [08:42<2:42:29,  3.98s/it]  6%|▌         | 150/2599 [08:45<2:31:24,  3.71s/it]                                                    {'loss': 1.0025, 'learning_rate': 1.995977484956779e-05, 'epoch': 0.06}
+  6%|▌         | 150/2599 [08:45<2:31:24,  3.71s/it]  6%|▌         | 151/2599 [08:48<2:22:28,  3.49s/it]                                                    {'loss': 1.0558, 'learning_rate': 1.9958650500819183e-05, 'epoch': 0.06}
+  6%|▌         | 151/2599 [08:48<2:22:28,  3.49s/it]  6%|▌         | 152/2599 [08:53<2:33:53,  3.77s/it]                                                    {'loss': 1.066, 'learning_rate': 1.9957510686908034e-05, 'epoch': 0.06}
+  6%|▌         | 152/2599 [08:53<2:33:53,  3.77s/it]  6%|▌         | 153/2599 [08:55<2:19:40,  3.43s/it]                                                    {'loss': 1.0411, 'learning_rate': 1.9956355409604402e-05, 'epoch': 0.06}
+  6%|▌         | 153/2599 [08:56<2:19:40,  3.43s/it]  6%|▌         | 154/2599 [09:01<2:39:32,  3.92s/it]                                                    {'loss': 0.9954, 'learning_rate': 1.9955184670702363e-05, 'epoch': 0.06}
+  6%|▌         | 154/2599 [09:01<2:39:32,  3.92s/it]  6%|▌         | 155/2599 [09:04<2:33:22,  3.77s/it]                                                    {'loss': 0.988, 'learning_rate': 1.9953998472019996e-05, 'epoch': 0.06}
+  6%|▌         | 155/2599 [09:04<2:33:22,  3.77s/it]  6%|▌         | 156/2599 [09:08<2:30:39,  3.70s/it]                                                    {'loss': 1.0428, 'learning_rate': 1.9952796815399403e-05, 'epoch': 0.06}
+  6%|▌         | 156/2599 [09:08<2:30:39,  3.70s/it]  6%|▌         | 157/2599 [09:12<2:36:45,  3.85s/it]                                                    {'loss': 1.0353, 'learning_rate': 1.9951579702706668e-05, 'epoch': 0.06}
+  6%|▌         | 157/2599 [09:12<2:36:45,  3.85s/it]Token indices sequence length is longer than the specified maximum sequence length for this model (2367 > 2048). Running this sequence through the model will result in indexing errors
+  6%|▌         | 158/2599 [09:15<2:32:24,  3.75s/it]                                                    {'loss': 1.0162, 'learning_rate': 1.9950347135831907e-05, 'epoch': 0.06}
+  6%|▌         | 158/2599 [09:15<2:32:24,  3.75s/it]  6%|▌         | 159/2599 [09:18<2:15:50,  3.34s/it]                                                    {'loss': 1.0262, 'learning_rate': 1.994909911668921e-05, 'epoch': 0.06}
+  6%|▌         | 159/2599 [09:18<2:15:50,  3.34s/it]  6%|▌         | 160/2599 [09:21<2:10:40,  3.21s/it]                                                    {'loss': 1.0486, 'learning_rate': 1.994783564721667e-05, 'epoch': 0.06}
+  6%|▌         | 160/2599 [09:21<2:10:40,  3.21s/it]  6%|▌         | 161/2599 [09:25<2:20:43,  3.46s/it]                                                    {'loss': 1.0401, 'learning_rate': 1.994655672937638e-05, 'epoch': 0.06}
+  6%|▌         | 161/2599 [09:25<2:20:43,  3.46s/it]  6%|▌         | 162/2599 [09:28<2:23:03,  3.52s/it]                                                    {'loss': 1.0337, 'learning_rate': 1.994526236515442e-05, 'epoch': 0.06}
+  6%|▌         | 162/2599 [09:28<2:23:03,  3.52s/it]  6%|▋         | 163/2599 [09:31<2:19:18,  3.43s/it]                                                    {'loss': 1.0608, 'learning_rate': 1.9943952556560863e-05, 'epoch': 0.06}
+  6%|▋         | 163/2599 [09:31<2:19:18,  3.43s/it]  6%|▋         | 164/2599 [09:34<2:10:48,  3.22s/it]                                                    {'loss': 1.0375, 'learning_rate': 1.9942627305629747e-05, 'epoch': 0.06}
+  6%|▋         | 164/2599 [09:34<2:10:48,  3.22s/it]  6%|▋         | 165/2599 [09:39<2:28:33,  3.66s/it]                                                    {'loss': 1.005, 'learning_rate': 1.9941286614419113e-05, 'epoch': 0.06}
+  6%|▋         | 165/2599 [09:39<2:28:33,  3.66s/it]  6%|▋         | 166/2599 [09:43<2:29:34,  3.69s/it]                                                    {'loss': 1.0237, 'learning_rate': 1.9939930485010968e-05, 'epoch': 0.06}
+  6%|▋         | 166/2599 [09:43<2:29:34,  3.69s/it]  6%|▋         | 167/2599 [09:46<2:20:22,  3.46s/it]                                                    {'loss': 1.0505, 'learning_rate': 1.99385589195113e-05, 'epoch': 0.06}
+  6%|▋         | 167/2599 [09:46<2:20:22,  3.46s/it]  6%|▋         | 168/2599 [09:49<2:16:47,  3.38s/it]                                                    {'loss': 1.0709, 'learning_rate': 1.9937171920050057e-05, 'epoch': 0.06}
+  6%|▋         | 168/2599 [09:49<2:16:47,  3.38s/it]  7%|▋         | 169/2599 [09:51<2:08:21,  3.17s/it]                                                    {'loss': 1.0441, 'learning_rate': 1.9935769488781167e-05, 'epoch': 0.07}
+  7%|▋         | 169/2599 [09:51<2:08:21,  3.17s/it]  7%|▋         | 170/2599 [09:54<2:05:07,  3.09s/it]                                                    {'loss': 1.0264, 'learning_rate': 1.993435162788252e-05, 'epoch': 0.07}
+  7%|▋         | 170/2599 [09:54<2:05:07,  3.09s/it]  7%|▋         | 171/2599 [09:57<2:05:00,  3.09s/it]                                                    {'loss': 1.064, 'learning_rate': 1.9932918339555965e-05, 'epoch': 0.07}
+  7%|▋         | 171/2599 [09:57<2:05:00,  3.09s/it]  7%|▋         | 172/2599 [10:01<2:13:16,  3.29s/it]                                                    {'loss': 1.0135, 'learning_rate': 1.9931469626027305e-05, 'epoch': 0.07}
+  7%|▋         | 172/2599 [10:01<2:13:16,  3.29s/it]  7%|▋         | 173/2599 [10:04<2:07:02,  3.14s/it]                                                    {'loss': 1.0134, 'learning_rate': 1.9930005489546308e-05, 'epoch': 0.07}
+  7%|▋         | 173/2599 [10:04<2:07:02,  3.14s/it]  7%|▋         | 174/2599 [10:09<2:30:17,  3.72s/it]                                                    {'loss': 1.0067, 'learning_rate': 1.9928525932386678e-05, 'epoch': 0.07}
+  7%|▋         | 174/2599 [10:09<2:30:17,  3.72s/it]  7%|▋         | 175/2599 [10:14<2:46:23,  4.12s/it]                                                    {'loss': 1.0307, 'learning_rate': 1.9927030956846083e-05, 'epoch': 0.07}
+  7%|▋         | 175/2599 [10:14<2:46:23,  4.12s/it]  7%|▋         | 176/2599 [10:17<2:29:01,  3.69s/it]                                                    {'loss': 1.0227, 'learning_rate': 1.9925520565246125e-05, 'epoch': 0.07}
+  7%|▋         | 176/2599 [10:17<2:29:01,  3.69s/it]  7%|▋         | 177/2599 [10:21<2:29:30,  3.70s/it]                                                    {'loss': 1.0302, 'learning_rate': 1.9923994759932344e-05, 'epoch': 0.07}
+  7%|▋         | 177/2599 [10:21<2:29:30,  3.70s/it]  7%|▋         | 178/2599 [10:23<2:17:54,  3.42s/it]                                                    {'loss': 1.0238, 'learning_rate': 1.9922453543274223e-05, 'epoch': 0.07}
+  7%|▋         | 178/2599 [10:23<2:17:54,  3.42s/it]  7%|▋         | 179/2599 [10:26<2:11:47,  3.27s/it]                                                    {'loss': 1.0628, 'learning_rate': 1.9920896917665178e-05, 'epoch': 0.07}
+  7%|▋         | 179/2599 [10:26<2:11:47,  3.27s/it]  7%|▋         | 180/2599 [10:30<2:14:27,  3.34s/it]                                                    {'loss': 1.0251, 'learning_rate': 1.9919324885522548e-05, 'epoch': 0.07}
+  7%|▋         | 180/2599 [10:30<2:14:27,  3.34s/it]  7%|▋         | 181/2599 [10:33<2:08:08,  3.18s/it]                                                    {'loss': 1.0592, 'learning_rate': 1.99177374492876e-05, 'epoch': 0.07}
+  7%|▋         | 181/2599 [10:33<2:08:08,  3.18s/it]  7%|▋         | 182/2599 [10:35<2:04:42,  3.10s/it]                                                    {'loss': 1.0465, 'learning_rate': 1.9916134611425522e-05, 'epoch': 0.07}
+  7%|▋         | 182/2599 [10:35<2:04:42,  3.10s/it]  7%|▋         | 183/2599 [10:38<1:59:02,  2.96s/it]                                                    {'loss': 1.0222, 'learning_rate': 1.991451637442543e-05, 'epoch': 0.07}
+  7%|▋         | 183/2599 [10:38<1:59:02,  2.96s/it]  7%|▋         | 184/2599 [10:41<1:55:51,  2.88s/it]                                                    {'loss': 0.9636, 'learning_rate': 1.9912882740800336e-05, 'epoch': 0.07}
+  7%|▋         | 184/2599 [10:41<1:55:51,  2.88s/it]  7%|▋         | 185/2599 [10:45<2:06:54,  3.15s/it]                                                    {'loss': 1.0273, 'learning_rate': 1.9911233713087172e-05, 'epoch': 0.07}
+  7%|▋         | 185/2599 [10:45<2:06:54,  3.15s/it]  7%|▋         | 186/2599 [10:47<1:59:51,  2.98s/it]                                                    {'loss': 1.0212, 'learning_rate': 1.990956929384678e-05, 'epoch': 0.07}
+  7%|▋         | 186/2599 [10:47<1:59:51,  2.98s/it]  7%|▋         | 187/2599 [10:51<2:07:43,  3.18s/it]                                                    {'loss': 1.0329, 'learning_rate': 1.9907889485663897e-05, 'epoch': 0.07}
+  7%|▋         | 187/2599 [10:51<2:07:43,  3.18s/it]  7%|▋         | 188/2599 [10:56<2:31:06,  3.76s/it]                                                    {'loss': 0.8175, 'learning_rate': 1.9906194291147155e-05, 'epoch': 0.07}
+  7%|▋         | 188/2599 [10:56<2:31:06,  3.76s/it]  7%|▋         | 189/2599 [10:59<2:23:24,  3.57s/it]                                                    {'loss': 1.0164, 'learning_rate': 1.9904483712929094e-05, 'epoch': 0.07}
+  7%|▋         | 189/2599 [10:59<2:23:24,  3.57s/it]  7%|▋         | 190/2599 [11:03<2:23:03,  3.56s/it]                                                    {'loss': 1.0888, 'learning_rate': 1.990275775366613e-05, 'epoch': 0.07}
+  7%|▋         | 190/2599 [11:03<2:23:03,  3.56s/it]  7%|▋         | 191/2599 [11:05<2:09:22,  3.22s/it]                                                    {'loss': 1.0419, 'learning_rate': 1.990101641603857e-05, 'epoch': 0.07}
+  7%|▋         | 191/2599 [11:05<2:09:22,  3.22s/it]  7%|▋         | 192/2599 [11:08<2:09:01,  3.22s/it]                                                    {'loss': 0.9796, 'learning_rate': 1.9899259702750604e-05, 'epoch': 0.07}
+  7%|▋         | 192/2599 [11:08<2:09:01,  3.22s/it]  7%|▋         | 193/2599 [11:12<2:15:13,  3.37s/it]                                                    {'loss': 1.0238, 'learning_rate': 1.9897487616530296e-05, 'epoch': 0.07}
+  7%|▋         | 193/2599 [11:12<2:15:13,  3.37s/it]  7%|▋         | 194/2599 [11:18<2:46:56,  4.16s/it]                                                    {'loss': 0.7954, 'learning_rate': 1.9895700160129593e-05, 'epoch': 0.07}
+  7%|▋         | 194/2599 [11:18<2:46:56,  4.16s/it]  8%|▊         | 195/2599 [11:21<2:35:42,  3.89s/it]                                                    {'loss': 1.0274, 'learning_rate': 1.9893897336324292e-05, 'epoch': 0.08}
+  8%|▊         | 195/2599 [11:21<2:35:42,  3.89s/it]  8%|▊         | 196/2599 [11:24<2:19:26,  3.48s/it]                                                    {'loss': 1.021, 'learning_rate': 1.9892079147914072e-05, 'epoch': 0.08}
+  8%|▊         | 196/2599 [11:24<2:19:26,  3.48s/it]  8%|▊         | 197/2599 [11:27<2:17:05,  3.42s/it]                                                    {'loss': 0.9969, 'learning_rate': 1.9890245597722465e-05, 'epoch': 0.08}
+  8%|▊         | 197/2599 [11:27<2:17:05,  3.42s/it]  8%|▊         | 198/2599 [11:30<2:15:50,  3.39s/it]                                                    {'loss': 1.0178, 'learning_rate': 1.988839668859686e-05, 'epoch': 0.08}
+  8%|▊         | 198/2599 [11:30<2:15:50,  3.39s/it]  8%|▊         | 199/2599 [11:33<2:06:20,  3.16s/it]                                                    {'loss': 1.0143, 'learning_rate': 1.9886532423408495e-05, 'epoch': 0.08}
+  8%|▊         | 199/2599 [11:33<2:06:20,  3.16s/it]  8%|▊         | 200/2599 [11:38<2:32:37,  3.82s/it]                                                    {'loss': 0.8238, 'learning_rate': 1.9884652805052465e-05, 'epoch': 0.08}
+  8%|▊         | 200/2599 [11:38<2:32:37,  3.82s/it]  8%|▊         | 201/2599 [11:41<2:21:28,  3.54s/it]                                                    {'loss': 1.0353, 'learning_rate': 1.988275783644769e-05, 'epoch': 0.08}
+  8%|▊         | 201/2599 [11:41<2:21:28,  3.54s/it]  8%|▊         | 202/2599 [11:45<2:23:53,  3.60s/it]                                                    {'loss': 1.0285, 'learning_rate': 1.988084752053695e-05, 'epoch': 0.08}
+  8%|▊         | 202/2599 [11:45<2:23:53,  3.60s/it]  8%|▊         | 203/2599 [11:47<2:10:27,  3.27s/it]                                                    {'loss': 1.0615, 'learning_rate': 1.9878921860286832e-05, 'epoch': 0.08}
+  8%|▊         | 203/2599 [11:47<2:10:27,  3.27s/it]  8%|▊         | 204/2599 [11:51<2:10:26,  3.27s/it]                                                    {'loss': 1.0033, 'learning_rate': 1.9876980858687777e-05, 'epoch': 0.08}
+  8%|▊         | 204/2599 [11:51<2:10:26,  3.27s/it]  8%|▊         | 205/2599 [11:54<2:13:34,  3.35s/it]                                                    {'loss': 1.0102, 'learning_rate': 1.987502451875403e-05, 'epoch': 0.08}
+  8%|▊         | 205/2599 [11:54<2:13:34,  3.35s/it]  8%|▊         | 206/2599 [11:58<2:16:43,  3.43s/it]                                                    {'loss': 0.9898, 'learning_rate': 1.9873052843523676e-05, 'epoch': 0.08}
+  8%|▊         | 206/2599 [11:58<2:16:43,  3.43s/it]  8%|▊         | 207/2599 [12:01<2:14:04,  3.36s/it]                                                    {'loss': 1.0248, 'learning_rate': 1.98710658360586e-05, 'epoch': 0.08}
+  8%|▊         | 207/2599 [12:01<2:14:04,  3.36s/it]  8%|▊         | 208/2599 [12:04<2:13:18,  3.35s/it]                                                    {'loss': 0.9684, 'learning_rate': 1.9869063499444495e-05, 'epoch': 0.08}
+  8%|▊         | 208/2599 [12:04<2:13:18,  3.35s/it]  8%|▊         | 209/2599 [12:07<2:10:28,  3.28s/it]                                                    {'loss': 0.9462, 'learning_rate': 1.9867045836790867e-05, 'epoch': 0.08}
+  8%|▊         | 209/2599 [12:07<2:10:28,  3.28s/it]  8%|▊         | 210/2599 [12:10<2:02:15,  3.07s/it]                                                    {'loss': 1.0035, 'learning_rate': 1.9865012851231022e-05, 'epoch': 0.08}
+  8%|▊         | 210/2599 [12:10<2:02:15,  3.07s/it]  8%|▊         | 211/2599 [12:15<2:19:52,  3.51s/it]                                                    {'loss': 0.7154, 'learning_rate': 1.986296454592206e-05, 'epoch': 0.08}
+  8%|▊         | 211/2599 [12:15<2:19:52,  3.51s/it]  8%|▊         | 212/2599 [12:18<2:16:06,  3.42s/it]                                                    {'loss': 1.0473, 'learning_rate': 1.9860900924044873e-05, 'epoch': 0.08}
+  8%|▊         | 212/2599 [12:18<2:16:06,  3.42s/it]  8%|▊         | 213/2599 [12:21<2:08:32,  3.23s/it]                                                    {'loss': 1.0445, 'learning_rate': 1.9858821988804132e-05, 'epoch': 0.08}
+  8%|▊         | 213/2599 [12:21<2:08:32,  3.23s/it]  8%|▊         | 214/2599 [12:24<2:09:05,  3.25s/it]                                                    {'loss': 1.0116, 'learning_rate': 1.98567277434283e-05, 'epoch': 0.08}
+  8%|▊         | 214/2599 [12:24<2:09:05,  3.25s/it]  8%|▊         | 215/2599 [12:29<2:34:53,  3.90s/it]                                                    {'loss': 0.7647, 'learning_rate': 1.98546181911696e-05, 'epoch': 0.08}
+  8%|▊         | 215/2599 [12:29<2:34:53,  3.90s/it]  8%|▊         | 216/2599 [12:33<2:35:39,  3.92s/it]                                                    {'loss': 1.0367, 'learning_rate': 1.985249333530404e-05, 'epoch': 0.08}
+  8%|▊         | 216/2599 [12:33<2:35:39,  3.92s/it]  8%|▊         | 217/2599 [12:36<2:20:08,  3.53s/it]                                                    {'loss': 1.038, 'learning_rate': 1.9850353179131392e-05, 'epoch': 0.08}
+  8%|▊         | 217/2599 [12:36<2:20:08,  3.53s/it]  8%|▊         | 218/2599 [12:39<2:09:48,  3.27s/it]                                                    {'loss': 1.0402, 'learning_rate': 1.984819772597518e-05, 'epoch': 0.08}
+  8%|▊         | 218/2599 [12:39<2:09:48,  3.27s/it]  8%|▊         | 219/2599 [12:41<2:05:42,  3.17s/it]                                                    {'loss': 1.0168, 'learning_rate': 1.984602697918269e-05, 'epoch': 0.08}
+  8%|▊         | 219/2599 [12:41<2:05:42,  3.17s/it]  8%|▊         | 220/2599 [12:45<2:06:57,  3.20s/it]                                                    {'loss': 0.9741, 'learning_rate': 1.9843840942124956e-05, 'epoch': 0.08}
+  8%|▊         | 220/2599 [12:45<2:06:57,  3.20s/it]  9%|▊         | 221/2599 [12:47<1:59:58,  3.03s/it]                                                    {'loss': 1.0375, 'learning_rate': 1.984163961819676e-05, 'epoch': 0.09}
+  9%|▊         | 221/2599 [12:47<1:59:58,  3.03s/it]  9%|▊         | 222/2599 [12:50<1:58:44,  3.00s/it]                                                    {'loss': 1.031, 'learning_rate': 1.9839423010816616e-05, 'epoch': 0.09}
+  9%|▊         | 222/2599 [12:50<1:58:44,  3.00s/it]  9%|▊         | 223/2599 [12:53<1:58:13,  2.99s/it]                                                    {'loss': 1.0128, 'learning_rate': 1.9837191123426777e-05, 'epoch': 0.09}
+  9%|▊         | 223/2599 [12:53<1:58:13,  2.99s/it]  9%|▊         | 224/2599 [12:56<1:58:19,  2.99s/it]                                                    {'loss': 1.0704, 'learning_rate': 1.983494395949323e-05, 'epoch': 0.09}
+  9%|▊         | 224/2599 [12:56<1:58:19,  2.99s/it]  9%|▊         | 225/2599 [12:59<1:55:04,  2.91s/it]                                                    {'loss': 1.0533, 'learning_rate': 1.9832681522505676e-05, 'epoch': 0.09}
+  9%|▊         | 225/2599 [12:59<1:55:04,  2.91s/it]  9%|▊         | 226/2599 [13:02<2:01:10,  3.06s/it]                                                    {'loss': 0.9407, 'learning_rate': 1.983040381597754e-05, 'epoch': 0.09}
+  9%|▊         | 226/2599 [13:02<2:01:10,  3.06s/it]  9%|▊         | 227/2599 [13:05<1:56:34,  2.95s/it]                                                    {'loss': 0.9971, 'learning_rate': 1.9828110843445954e-05, 'epoch': 0.09}
+  9%|▊         | 227/2599 [13:05<1:56:34,  2.95s/it]  9%|▉         | 228/2599 [13:08<1:50:22,  2.79s/it]                                                    {'loss': 1.0421, 'learning_rate': 1.9825802608471767e-05, 'epoch': 0.09}
+  9%|▉         | 228/2599 [13:08<1:50:22,  2.79s/it]  9%|▉         | 229/2599 [13:10<1:50:04,  2.79s/it]                                                    {'loss': 1.0074, 'learning_rate': 1.982347911463952e-05, 'epoch': 0.09}
+  9%|▉         | 229/2599 [13:10<1:50:04,  2.79s/it]  9%|▉         | 230/2599 [13:13<1:49:20,  2.77s/it]                                                    {'loss': 1.0469, 'learning_rate': 1.982114036555746e-05, 'epoch': 0.09}
+  9%|▉         | 230/2599 [13:13<1:49:20,  2.77s/it]  9%|▉         | 231/2599 [13:16<1:52:30,  2.85s/it]                                                    {'loss': 0.999, 'learning_rate': 1.9818786364857506e-05, 'epoch': 0.09}
+  9%|▉         | 231/2599 [13:16<1:52:30,  2.85s/it]  9%|▉         | 232/2599 [13:19<1:52:19,  2.85s/it]                                                    {'loss': 1.0682, 'learning_rate': 1.9816417116195287e-05, 'epoch': 0.09}
+  9%|▉         | 232/2599 [13:19<1:52:19,  2.85s/it]  9%|▉         | 233/2599 [13:21<1:48:14,  2.75s/it]                                                    {'loss': 1.0362, 'learning_rate': 1.9814032623250093e-05, 'epoch': 0.09}
+  9%|▉         | 233/2599 [13:21<1:48:14,  2.75s/it]  9%|▉         | 234/2599 [13:24<1:44:15,  2.64s/it]                                                    {'loss': 1.016, 'learning_rate': 1.9811632889724888e-05, 'epoch': 0.09}
+  9%|▉         | 234/2599 [13:24<1:44:15,  2.64s/it]  9%|▉         | 235/2599 [13:28<2:02:35,  3.11s/it]                                                    {'loss': 0.9895, 'learning_rate': 1.9809217919346318e-05, 'epoch': 0.09}
+  9%|▉         | 235/2599 [13:28<2:02:35,  3.11s/it]  9%|▉         | 236/2599 [13:31<1:58:39,  3.01s/it]                                                    {'loss': 1.0283, 'learning_rate': 1.9806787715864674e-05, 'epoch': 0.09}
+  9%|▉         | 236/2599 [13:31<1:58:39,  3.01s/it]  9%|▉         | 237/2599 [13:34<1:55:58,  2.95s/it]                                                    {'loss': 0.9961, 'learning_rate': 1.9804342283053916e-05, 'epoch': 0.09}
+  9%|▉         | 237/2599 [13:34<1:55:58,  2.95s/it]  9%|▉         | 238/2599 [13:36<1:48:28,  2.76s/it]                                                    {'loss': 1.0278, 'learning_rate': 1.980188162471164e-05, 'epoch': 0.09}
+  9%|▉         | 238/2599 [13:36<1:48:28,  2.76s/it]  9%|▉         | 239/2599 [13:40<2:04:53,  3.18s/it]                                                    {'loss': 1.022, 'learning_rate': 1.97994057446591e-05, 'epoch': 0.09}
+  9%|▉         | 239/2599 [13:40<2:04:53,  3.18s/it]  9%|▉         | 240/2599 [13:44<2:19:25,  3.55s/it]                                                    {'loss': 1.0213, 'learning_rate': 1.9796914646741187e-05, 'epoch': 0.09}
+  9%|▉         | 240/2599 [13:44<2:19:25,  3.55s/it]  9%|▉         | 241/2599 [13:48<2:24:10,  3.67s/it]                                                    {'loss': 1.0268, 'learning_rate': 1.9794408334826415e-05, 'epoch': 0.09}
+  9%|▉         | 241/2599 [13:48<2:24:10,  3.67s/it]  9%|▉         | 242/2599 [13:52<2:19:46,  3.56s/it]                                                    {'loss': 0.9869, 'learning_rate': 1.9791886812806932e-05, 'epoch': 0.09}
+  9%|▉         | 242/2599 [13:52<2:19:46,  3.56s/it]  9%|▉         | 243/2599 [13:55<2:14:43,  3.43s/it]                                                    {'loss': 0.9725, 'learning_rate': 1.9789350084598504e-05, 'epoch': 0.09}
+  9%|▉         | 243/2599 [13:55<2:14:43,  3.43s/it]  9%|▉         | 244/2599 [13:58<2:08:56,  3.29s/it]                                                    {'loss': 0.9876, 'learning_rate': 1.9786798154140507e-05, 'epoch': 0.09}
+  9%|▉         | 244/2599 [13:58<2:08:56,  3.29s/it]  9%|▉         | 245/2599 [14:01<2:11:04,  3.34s/it]                                                    {'loss': 1.0305, 'learning_rate': 1.9784231025395936e-05, 'epoch': 0.09}
+  9%|▉         | 245/2599 [14:01<2:11:04,  3.34s/it]  9%|▉         | 246/2599 [14:04<2:05:15,  3.19s/it]                                                    {'loss': 1.0067, 'learning_rate': 1.9781648702351383e-05, 'epoch': 0.09}
+  9%|▉         | 246/2599 [14:04<2:05:15,  3.19s/it] 10%|▉         | 247/2599 [14:07<2:04:19,  3.17s/it]                                                    {'loss': 0.9751, 'learning_rate': 1.977905118901703e-05, 'epoch': 0.1}
+ 10%|▉         | 247/2599 [14:07<2:04:19,  3.17s/it] 10%|▉         | 248/2599 [14:11<2:11:06,  3.35s/it]                                                    {'loss': 1.0529, 'learning_rate': 1.977643848942665e-05, 'epoch': 0.1}
+ 10%|▉         | 248/2599 [14:11<2:11:06,  3.35s/it] 10%|▉         | 249/2599 [14:14<2:03:05,  3.14s/it]                                                    {'loss': 0.9636, 'learning_rate': 1.9773810607637612e-05, 'epoch': 0.1}
+ 10%|▉         | 249/2599 [14:14<2:03:05,  3.14s/it] 10%|▉         | 250/2599 [14:17<2:03:39,  3.16s/it]                                                    {'loss': 1.0417, 'learning_rate': 1.9771167547730844e-05, 'epoch': 0.1}
+ 10%|▉         | 250/2599 [14:17<2:03:39,  3.16s/it] 10%|▉         | 251/2599 [14:20<2:00:00,  3.07s/it]                                                    {'loss': 0.9824, 'learning_rate': 1.976850931381086e-05, 'epoch': 0.1}
+ 10%|▉         | 251/2599 [14:20<2:00:00,  3.07s/it] 10%|▉         | 252/2599 [14:23<2:00:45,  3.09s/it]                                                    {'loss': 1.0233, 'learning_rate': 1.9765835910005726e-05, 'epoch': 0.1}
+ 10%|▉         | 252/2599 [14:23<2:00:45,  3.09s/it] 10%|▉         | 253/2599 [14:25<1:54:54,  2.94s/it]                                                    {'loss': 0.9827, 'learning_rate': 1.9763147340467067e-05, 'epoch': 0.1}
+ 10%|▉         | 253/2599 [14:25<1:54:54,  2.94s/it] 10%|▉         | 254/2599 [14:30<2:14:51,  3.45s/it]                                                    {'loss': 0.81, 'learning_rate': 1.9760443609370074e-05, 'epoch': 0.1}
+ 10%|▉         | 254/2599 [14:30<2:14:51,  3.45s/it] 10%|▉         | 255/2599 [14:33<2:03:29,  3.16s/it]                                                    {'loss': 1.0219, 'learning_rate': 1.9757724720913466e-05, 'epoch': 0.1}
+ 10%|▉         | 255/2599 [14:33<2:03:29,  3.16s/it] 10%|▉         | 256/2599 [14:38<2:25:59,  3.74s/it]                                                    {'loss': 0.963, 'learning_rate': 1.975499067931951e-05, 'epoch': 0.1}
+ 10%|▉         | 256/2599 [14:38<2:25:59,  3.74s/it] 10%|▉         | 257/2599 [14:40<2:14:41,  3.45s/it]                                                    {'loss': 1.0059, 'learning_rate': 1.9752241488834002e-05, 'epoch': 0.1}
+ 10%|▉         | 257/2599 [14:40<2:14:41,  3.45s/it] 10%|▉         | 258/2599 [14:43<2:08:01,  3.28s/it]                                                    {'loss': 1.0274, 'learning_rate': 1.974947715372626e-05, 'epoch': 0.1}
+ 10%|▉         | 258/2599 [14:43<2:08:01,  3.28s/it] 10%|▉         | 259/2599 [14:46<1:57:53,  3.02s/it]                                                    {'loss': 0.9879, 'learning_rate': 1.9746697678289128e-05, 'epoch': 0.1}
+ 10%|▉         | 259/2599 [14:46<1:57:53,  3.02s/it] 10%|█         | 260/2599 [14:48<1:53:20,  2.91s/it]                                                    {'loss': 1.036, 'learning_rate': 1.9743903066838954e-05, 'epoch': 0.1}
+ 10%|█         | 260/2599 [14:48<1:53:20,  2.91s/it] 10%|█         | 261/2599 [14:52<1:57:40,  3.02s/it]                                                    {'loss': 0.9734, 'learning_rate': 1.9741093323715597e-05, 'epoch': 0.1}
+ 10%|█         | 261/2599 [14:52<1:57:40,  3.02s/it] 10%|█         | 262/2599 [14:55<1:58:36,  3.05s/it]                                                    {'loss': 0.9803, 'learning_rate': 1.9738268453282414e-05, 'epoch': 0.1}
+ 10%|█         | 262/2599 [14:55<1:58:36,  3.05s/it] 10%|█         | 263/2599 [14:58<1:55:13,  2.96s/it]                                                    {'loss': 1.0002, 'learning_rate': 1.973542845992625e-05, 'epoch': 0.1}
+ 10%|█         | 263/2599 [14:58<1:55:13,  2.96s/it] 10%|█         | 264/2599 [15:00<1:54:01,  2.93s/it]                                                    {'loss': 1.0637, 'learning_rate': 1.9732573348057437e-05, 'epoch': 0.1}
+ 10%|█         | 264/2599 [15:00<1:54:01,  2.93s/it] 10%|█         | 265/2599 [15:03<1:49:28,  2.81s/it]                                                    {'loss': 1.0475, 'learning_rate': 1.9729703122109788e-05, 'epoch': 0.1}
+ 10%|█         | 265/2599 [15:03<1:49:28,  2.81s/it] 10%|█         | 266/2599 [15:06<1:55:04,  2.96s/it]                                                    {'loss': 0.9943, 'learning_rate': 1.9726817786540584e-05, 'epoch': 0.1}
+ 10%|█         | 266/2599 [15:06<1:55:04,  2.96s/it] 10%|█         | 267/2599 [15:09<1:51:45,  2.88s/it]                                                    {'loss': 1.0183, 'learning_rate': 1.9723917345830568e-05, 'epoch': 0.1}
+ 10%|█         | 267/2599 [15:09<1:51:45,  2.88s/it] 10%|█         | 268/2599 [15:13<2:02:08,  3.14s/it]                                                    {'loss': 1.0052, 'learning_rate': 1.9721001804483947e-05, 'epoch': 0.1}
+ 10%|█         | 268/2599 [15:13<2:02:08,  3.14s/it] 10%|█         | 269/2599 [15:17<2:12:37,  3.42s/it]                                                    {'loss': 1.0069, 'learning_rate': 1.9718071167028376e-05, 'epoch': 0.1}
+ 10%|█         | 269/2599 [15:17<2:12:37,  3.42s/it] 10%|█         | 270/2599 [15:21<2:17:12,  3.53s/it]                                                    {'loss': 1.002, 'learning_rate': 1.971512543801495e-05, 'epoch': 0.1}
+ 10%|█         | 270/2599 [15:21<2:17:12,  3.53s/it] 10%|█         | 271/2599 [15:24<2:18:09,  3.56s/it]                                                    {'loss': 0.9759, 'learning_rate': 1.9712164622018197e-05, 'epoch': 0.1}
+ 10%|█         | 271/2599 [15:24<2:18:09,  3.56s/it] 10%|█         | 272/2599 [15:30<2:39:27,  4.11s/it]                                                    {'loss': 0.774, 'learning_rate': 1.9709188723636088e-05, 'epoch': 0.1}
+ 10%|█         | 272/2599 [15:30<2:39:27,  4.11s/it] 11%|█         | 273/2599 [15:32<2:21:37,  3.65s/it]                                                    {'loss': 1.0087, 'learning_rate': 1.9706197747490004e-05, 'epoch': 0.11}
+ 11%|█         | 273/2599 [15:32<2:21:37,  3.65s/it] 11%|█         | 274/2599 [15:36<2:21:19,  3.65s/it]                                                    {'loss': 0.9843, 'learning_rate': 1.9703191698224742e-05, 'epoch': 0.11}
+ 11%|█         | 274/2599 [15:36<2:21:19,  3.65s/it] 11%|█         | 275/2599 [15:38<2:10:06,  3.36s/it]                                                    {'loss': 0.9966, 'learning_rate': 1.9700170580508514e-05, 'epoch': 0.11}
+ 11%|█         | 275/2599 [15:38<2:10:06,  3.36s/it] 11%|█         | 276/2599 [15:41<2:02:19,  3.16s/it]                                                    {'loss': 1.076, 'learning_rate': 1.969713439903292e-05, 'epoch': 0.11}
+ 11%|█         | 276/2599 [15:41<2:02:19,  3.16s/it] 11%|█         | 277/2599 [15:44<2:02:59,  3.18s/it]                                                    {'loss': 1.0396, 'learning_rate': 1.9694083158512965e-05, 'epoch': 0.11}
+ 11%|█         | 277/2599 [15:44<2:02:59,  3.18s/it] 11%|█         | 278/2599 [15:48<2:10:23,  3.37s/it]                                                    {'loss': 1.033, 'learning_rate': 1.9691016863687037e-05, 'epoch': 0.11}
+ 11%|█         | 278/2599 [15:48<2:10:23,  3.37s/it] 11%|█         | 279/2599 [15:51<2:07:50,  3.31s/it]                                                    {'loss': 1.0032, 'learning_rate': 1.9687935519316897e-05, 'epoch': 0.11}
+ 11%|█         | 279/2599 [15:51<2:07:50,  3.31s/it] 11%|█         | 280/2599 [15:54<1:55:57,  3.00s/it]                                                    {'loss': 1.0503, 'learning_rate': 1.9684839130187678e-05, 'epoch': 0.11}
+ 11%|█         | 280/2599 [15:54<1:55:57,  3.00s/it] 11%|█         | 281/2599 [15:57<2:04:57,  3.23s/it]                                                    {'loss': 1.037, 'learning_rate': 1.9681727701107885e-05, 'epoch': 0.11}
+ 11%|█         | 281/2599 [15:57<2:04:57,  3.23s/it] 11%|█         | 282/2599 [16:00<1:57:45,  3.05s/it]                                                    {'loss': 1.0158, 'learning_rate': 1.967860123690937e-05, 'epoch': 0.11}
+ 11%|█         | 282/2599 [16:00<1:57:45,  3.05s/it] 11%|█         | 283/2599 [16:05<2:25:45,  3.78s/it]                                                    {'loss': 1.013, 'learning_rate': 1.967545974244734e-05, 'epoch': 0.11}
+ 11%|█         | 283/2599 [16:06<2:25:45,  3.78s/it] 11%|█         | 284/2599 [16:09<2:22:40,  3.70s/it]                                                    {'loss': 1.0231, 'learning_rate': 1.9672303222600333e-05, 'epoch': 0.11}
+ 11%|█         | 284/2599 [16:09<2:22:40,  3.70s/it] 11%|█         | 285/2599 [16:12<2:11:24,  3.41s/it]                                                    {'loss': 1.0471, 'learning_rate': 1.9669131682270232e-05, 'epoch': 0.11}
+ 11%|█         | 285/2599 [16:12<2:11:24,  3.41s/it] 11%|█         | 286/2599 [16:15<2:12:51,  3.45s/it]                                                    {'loss': 0.9913, 'learning_rate': 1.966594512638224e-05, 'epoch': 0.11}
+ 11%|█         | 286/2599 [16:15<2:12:51,  3.45s/it] 11%|█         | 287/2599 [16:18<2:07:49,  3.32s/it]                                                    {'loss': 1.0107, 'learning_rate': 1.966274355988488e-05, 'epoch': 0.11}
+ 11%|█         | 287/2599 [16:18<2:07:49,  3.32s/it] 11%|█         | 288/2599 [16:22<2:06:30,  3.28s/it]                                                    {'loss': 1.0034, 'learning_rate': 1.9659526987749987e-05, 'epoch': 0.11}
+ 11%|█         | 288/2599 [16:22<2:06:30,  3.28s/it] 11%|█         | 289/2599 [16:28<2:44:12,  4.27s/it]                                                    {'loss': 0.8505, 'learning_rate': 1.965629541497269e-05, 'epoch': 0.11}
+ 11%|█         | 289/2599 [16:28<2:44:12,  4.27s/it] 11%|█         | 290/2599 [16:31<2:26:36,  3.81s/it]                                                    {'loss': 0.999, 'learning_rate': 1.9653048846571427e-05, 'epoch': 0.11}
+ 11%|█         | 290/2599 [16:31<2:26:36,  3.81s/it] 11%|█         | 291/2599 [16:33<2:13:38,  3.47s/it]                                                    {'loss': 1.0624, 'learning_rate': 1.964978728758791e-05, 'epoch': 0.11}
+ 11%|█         | 291/2599 [16:33<2:13:38,  3.47s/it] 11%|█         | 292/2599 [16:36<2:04:31,  3.24s/it]                                                    {'loss': 1.032, 'learning_rate': 1.9646510743087144e-05, 'epoch': 0.11}
+ 11%|█         | 292/2599 [16:36<2:04:31,  3.24s/it] 11%|█▏        | 293/2599 [16:39<1:58:05,  3.07s/it]                                                    {'loss': 0.9836, 'learning_rate': 1.9643219218157395e-05, 'epoch': 0.11}
+ 11%|█▏        | 293/2599 [16:39<1:58:05,  3.07s/it] 11%|█▏        | 294/2599 [16:41<1:50:33,  2.88s/it]                                                    {'loss': 1.0132, 'learning_rate': 1.963991271791019e-05, 'epoch': 0.11}
+ 11%|█▏        | 294/2599 [16:41<1:50:33,  2.88s/it] 11%|█▏        | 295/2599 [16:46<2:07:37,  3.32s/it]                                                    {'loss': 1.0, 'learning_rate': 1.9636591247480323e-05, 'epoch': 0.11}
+ 11%|█▏        | 295/2599 [16:46<2:07:37,  3.32s/it] 11%|█▏        | 296/2599 [16:48<1:57:13,  3.05s/it]                                                    {'loss': 1.0056, 'learning_rate': 1.963325481202583e-05, 'epoch': 0.11}
+ 11%|█▏        | 296/2599 [16:48<1:57:13,  3.05s/it] 11%|█▏        | 297/2599 [16:52<2:07:19,  3.32s/it]                                                    {'loss': 1.0321, 'learning_rate': 1.9629903416727987e-05, 'epoch': 0.11}
+ 11%|█▏        | 297/2599 [16:52<2:07:19,  3.32s/it] 11%|█▏        | 298/2599 [16:57<2:20:38,  3.67s/it]                                                    {'loss': 0.9962, 'learning_rate': 1.96265370667913e-05, 'epoch': 0.11}
+ 11%|█▏        | 298/2599 [16:57<2:20:38,  3.67s/it] 12%|█▏        | 299/2599 [17:01<2:30:06,  3.92s/it]                                                    {'loss': 0.963, 'learning_rate': 1.9623155767443498e-05, 'epoch': 0.12}
+ 12%|█▏        | 299/2599 [17:01<2:30:06,  3.92s/it] 12%|█▏        | 300/2599 [17:04<2:19:45,  3.65s/it]                                                    {'loss': 0.9995, 'learning_rate': 1.9619759523935532e-05, 'epoch': 0.12}
+ 12%|█▏        | 300/2599 [17:04<2:19:45,  3.65s/it] 12%|█▏        | 301/2599 [17:07<2:16:01,  3.55s/it]                                                    {'loss': 1.024, 'learning_rate': 1.961634834154156e-05, 'epoch': 0.12}
+ 12%|█▏        | 301/2599 [17:07<2:16:01,  3.55s/it] 12%|█▏        | 302/2599 [17:10<2:10:55,  3.42s/it]                                                    {'loss': 1.0349, 'learning_rate': 1.9612922225558924e-05, 'epoch': 0.12}
+ 12%|█▏        | 302/2599 [17:10<2:10:55,  3.42s/it] 12%|█▏        | 303/2599 [17:14<2:09:50,  3.39s/it]                                                    {'loss': 1.035, 'learning_rate': 1.960948118130818e-05, 'epoch': 0.12}
+ 12%|█▏        | 303/2599 [17:14<2:09:50,  3.39s/it] 12%|█▏        | 304/2599 [17:17<2:04:57,  3.27s/it]                                                    {'loss': 1.0258, 'learning_rate': 1.9606025214133046e-05, 'epoch': 0.12}
+ 12%|█▏        | 304/2599 [17:17<2:04:57,  3.27s/it] 12%|█▏        | 305/2599 [17:19<1:57:24,  3.07s/it]                                                    {'loss': 1.0349, 'learning_rate': 1.960255432940043e-05, 'epoch': 0.12}
+ 12%|█▏        | 305/2599 [17:19<1:57:24,  3.07s/it] 12%|█▏        | 306/2599 [17:24<2:20:24,  3.67s/it]                                                    {'loss': 0.9758, 'learning_rate': 1.9599068532500394e-05, 'epoch': 0.12}
+ 12%|█▏        | 306/2599 [17:24<2:20:24,  3.67s/it] 12%|█▏        | 307/2599 [17:27<2:06:24,  3.31s/it]                                                    {'loss': 1.0002, 'learning_rate': 1.9595567828846166e-05, 'epoch': 0.12}
+ 12%|█▏        | 307/2599 [17:27<2:06:24,  3.31s/it] 12%|█▏        | 308/2599 [17:29<1:57:23,  3.07s/it]                                                    {'loss': 1.0076, 'learning_rate': 1.9592052223874115e-05, 'epoch': 0.12}
+ 12%|█▏        | 308/2599 [17:29<1:57:23,  3.07s/it] 12%|█▏        | 309/2599 [17:32<1:55:37,  3.03s/it]                                                    {'loss': 1.0526, 'learning_rate': 1.9588521723043764e-05, 'epoch': 0.12}
+ 12%|█▏        | 309/2599 [17:32<1:55:37,  3.03s/it] 12%|█▏        | 310/2599 [17:35<1:50:55,  2.91s/it]                                                    {'loss': 0.9947, 'learning_rate': 1.9584976331837758e-05, 'epoch': 0.12}
+ 12%|█▏        | 310/2599 [17:35<1:50:55,  2.91s/it] 12%|█▏        | 311/2599 [17:38<1:52:52,  2.96s/it]                                                    {'loss': 0.9916, 'learning_rate': 1.9581416055761865e-05, 'epoch': 0.12}
+ 12%|█▏        | 311/2599 [17:38<1:52:52,  2.96s/it] 12%|█▏        | 312/2599 [17:41<1:51:50,  2.93s/it]                                                    {'loss': 1.0299, 'learning_rate': 1.9577840900344974e-05, 'epoch': 0.12}
+ 12%|█▏        | 312/2599 [17:41<1:51:50,  2.93s/it] 12%|█▏        | 313/2599 [17:44<1:50:35,  2.90s/it]                                                    {'loss': 0.9827, 'learning_rate': 1.957425087113908e-05, 'epoch': 0.12}
+ 12%|█▏        | 313/2599 [17:44<1:50:35,  2.90s/it] 12%|█▏        | 314/2599 [17:47<1:52:25,  2.95s/it]                                                    {'loss': 0.9931, 'learning_rate': 1.9570645973719273e-05, 'epoch': 0.12}
+ 12%|█▏        | 314/2599 [17:47<1:52:25,  2.95s/it] 12%|█▏        | 315/2599 [17:50<1:49:46,  2.88s/it]                                                    {'loss': 1.0615, 'learning_rate': 1.9567026213683728e-05, 'epoch': 0.12}
+ 12%|█▏        | 315/2599 [17:50<1:49:46,  2.88s/it] 12%|█▏        | 316/2599 [17:53<1:53:11,  2.97s/it]                                                    {'loss': 1.0143, 'learning_rate': 1.956339159665371e-05, 'epoch': 0.12}
+ 12%|█▏        | 316/2599 [17:53<1:53:11,  2.97s/it] 12%|█▏        | 317/2599 [17:56<1:52:13,  2.95s/it]                                                    {'loss': 0.9928, 'learning_rate': 1.9559742128273558e-05, 'epoch': 0.12}
+ 12%|█▏        | 317/2599 [17:56<1:52:13,  2.95s/it] 12%|█▏        | 318/2599 [17:58<1:46:46,  2.81s/it]                                                    {'loss': 0.9915, 'learning_rate': 1.9556077814210662e-05, 'epoch': 0.12}
+ 12%|█▏        | 318/2599 [17:58<1:46:46,  2.81s/it] 12%|█▏        | 319/2599 [18:01<1:47:54,  2.84s/it]                                                    {'loss': 0.998, 'learning_rate': 1.955239866015547e-05, 'epoch': 0.12}
+ 12%|█▏        | 319/2599 [18:01<1:47:54,  2.84s/it] 12%|█▏        | 320/2599 [18:04<1:45:54,  2.79s/it]                                                    {'loss': 1.0044, 'learning_rate': 1.954870467182149e-05, 'epoch': 0.12}
+ 12%|█▏        | 320/2599 [18:04<1:45:54,  2.79s/it] 12%|█▏        | 321/2599 [18:06<1:45:09,  2.77s/it]                                                    {'loss': 1.01, 'learning_rate': 1.9544995854945248e-05, 'epoch': 0.12}
+ 12%|█▏        | 321/2599 [18:06<1:45:09,  2.77s/it] 12%|█▏        | 322/2599 [18:10<1:52:49,  2.97s/it]                                                    {'loss': 1.0334, 'learning_rate': 1.9541272215286304e-05, 'epoch': 0.12}
+ 12%|█▏        | 322/2599 [18:10<1:52:49,  2.97s/it] 12%|█▏        | 323/2599 [18:13<1:53:20,  2.99s/it]                                                    {'loss': 1.0505, 'learning_rate': 1.9537533758627242e-05, 'epoch': 0.12}
+ 12%|█▏        | 323/2599 [18:13<1:53:20,  2.99s/it] 12%|█▏        | 324/2599 [18:16<1:52:32,  2.97s/it]                                                    {'loss': 1.07, 'learning_rate': 1.9533780490773645e-05, 'epoch': 0.12}
+ 12%|█▏        | 324/2599 [18:16<1:52:32,  2.97s/it] 13%|█▎        | 325/2599 [18:19<1:52:52,  2.98s/it]                                                    {'loss': 0.9813, 'learning_rate': 1.953001241755411e-05, 'epoch': 0.13}
+ 13%|█▎        | 325/2599 [18:19<1:52:52,  2.98s/it] 13%|█▎        | 326/2599 [18:23<2:06:56,  3.35s/it]                                                    {'loss': 1.0228, 'learning_rate': 1.952622954482022e-05, 'epoch': 0.13}
+ 13%|█▎        | 326/2599 [18:23<2:06:56,  3.35s/it] 13%|█▎        | 327/2599 [18:29<2:32:39,  4.03s/it]                                                    {'loss': 0.81, 'learning_rate': 1.9522431878446536e-05, 'epoch': 0.13}
+ 13%|█▎        | 327/2599 [18:29<2:32:39,  4.03s/it] 13%|█▎        | 328/2599 [18:31<2:15:30,  3.58s/it]                                                    {'loss': 1.0476, 'learning_rate': 1.95186194243306e-05, 'epoch': 0.13}
+ 13%|█▎        | 328/2599 [18:31<2:15:30,  3.58s/it] 13%|█▎        | 329/2599 [18:34<2:07:06,  3.36s/it]                                                    {'loss': 0.9855, 'learning_rate': 1.9514792188392914e-05, 'epoch': 0.13}
+ 13%|█▎        | 329/2599 [18:34<2:07:06,  3.36s/it] 13%|█▎        | 330/2599 [18:36<1:56:43,  3.09s/it]                                                    {'loss': 1.0189, 'learning_rate': 1.9510950176576933e-05, 'epoch': 0.13}
+ 13%|█▎        | 330/2599 [18:36<1:56:43,  3.09s/it] 13%|█▎        | 331/2599 [18:40<1:57:05,  3.10s/it]                                                    {'loss': 1.0279, 'learning_rate': 1.950709339484907e-05, 'epoch': 0.13}
+ 13%|█▎        | 331/2599 [18:40<1:57:05,  3.10s/it] 13%|█▎        | 332/2599 [18:42<1:53:05,  2.99s/it]                                                    {'loss': 0.9801, 'learning_rate': 1.9503221849198655e-05, 'epoch': 0.13}
+ 13%|█▎        | 332/2599 [18:42<1:53:05,  2.99s/it] 13%|█▎        | 333/2599 [18:45<1:51:19,  2.95s/it]                                                    {'loss': 1.0273, 'learning_rate': 1.9499335545637968e-05, 'epoch': 0.13}
+ 13%|█▎        | 333/2599 [18:45<1:51:19,  2.95s/it] 13%|█▎        | 334/2599 [18:48<1:51:52,  2.96s/it]                                                    {'loss': 1.0186, 'learning_rate': 1.9495434490202188e-05, 'epoch': 0.13}
+ 13%|█▎        | 334/2599 [18:48<1:51:52,  2.96s/it] 13%|█▎        | 335/2599 [18:52<1:56:25,  3.09s/it]                                                    {'loss': 1.079, 'learning_rate': 1.9491518688949417e-05, 'epoch': 0.13}
+ 13%|█▎        | 335/2599 [18:52<1:56:25,  3.09s/it] 13%|█▎        | 336/2599 [18:54<1:54:03,  3.02s/it]                                                    {'loss': 1.0488, 'learning_rate': 1.948758814796064e-05, 'epoch': 0.13}
+ 13%|█▎        | 336/2599 [18:54<1:54:03,  3.02s/it] 13%|█▎        | 337/2599 [18:57<1:50:33,  2.93s/it]                                                    {'loss': 1.0029, 'learning_rate': 1.9483642873339753e-05, 'epoch': 0.13}
+ 13%|█▎        | 337/2599 [18:57<1:50:33,  2.93s/it] 13%|█▎        | 338/2599 [19:00<1:48:13,  2.87s/it]                                                    {'loss': 0.9953, 'learning_rate': 1.9479682871213515e-05, 'epoch': 0.13}
+ 13%|█▎        | 338/2599 [19:00<1:48:13,  2.87s/it] 13%|█▎        | 339/2599 [19:02<1:44:47,  2.78s/it]                                                    {'loss': 1.0216, 'learning_rate': 1.947570814773156e-05, 'epoch': 0.13}
+ 13%|█▎        | 339/2599 [19:02<1:44:47,  2.78s/it] 13%|█▎        | 340/2599 [19:06<1:54:17,  3.04s/it]                                                    {'loss': 1.0228, 'learning_rate': 1.9471718709066392e-05, 'epoch': 0.13}
+ 13%|█▎        | 340/2599 [19:06<1:54:17,  3.04s/it] 13%|█▎        | 341/2599 [19:09<1:49:25,  2.91s/it]                                                    {'loss': 1.0099, 'learning_rate': 1.9467714561413358e-05, 'epoch': 0.13}
+ 13%|█▎        | 341/2599 [19:09<1:49:25,  2.91s/it] 13%|█▎        | 342/2599 [19:12<1:50:29,  2.94s/it]                                                    {'loss': 1.0286, 'learning_rate': 1.9463695710990648e-05, 'epoch': 0.13}
+ 13%|█▎        | 342/2599 [19:12<1:50:29,  2.94s/it] 13%|█▎        | 343/2599 [19:14<1:46:43,  2.84s/it]                                                    {'loss': 1.0392, 'learning_rate': 1.9459662164039283e-05, 'epoch': 0.13}
+ 13%|█▎        | 343/2599 [19:14<1:46:43,  2.84s/it] 13%|█▎        | 344/2599 [19:17<1:42:40,  2.73s/it]                                                    {'loss': 0.9872, 'learning_rate': 1.9455613926823115e-05, 'epoch': 0.13}
+ 13%|█▎        | 344/2599 [19:17<1:42:40,  2.73s/it] 13%|█▎        | 345/2599 [19:20<1:46:26,  2.83s/it]                                                    {'loss': 0.9757, 'learning_rate': 1.9451551005628803e-05, 'epoch': 0.13}
+ 13%|█▎        | 345/2599 [19:20<1:46:26,  2.83s/it] 13%|█▎        | 346/2599 [19:23<1:48:09,  2.88s/it]                                                    {'loss': 0.9974, 'learning_rate': 1.9447473406765803e-05, 'epoch': 0.13}
+ 13%|█▎        | 346/2599 [19:23<1:48:09,  2.88s/it] 13%|█▎        | 347/2599 [19:26<1:48:14,  2.88s/it]                                                    {'loss': 1.0175, 'learning_rate': 1.9443381136566382e-05, 'epoch': 0.13}
+ 13%|█▎        | 347/2599 [19:26<1:48:14,  2.88s/it] 13%|█▎        | 348/2599 [19:30<2:01:08,  3.23s/it]                                                    {'loss': 0.9744, 'learning_rate': 1.943927420138557e-05, 'epoch': 0.13}
+ 13%|█▎        | 348/2599 [19:30<2:01:08,  3.23s/it][2024-08-26 17:47:43,270] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: -9) local_rank: 0 (pid: 234188) of binary: /opt/conda/envs/llava/bin/python
+Traceback (most recent call last):
+  File "/opt/conda/envs/llava/bin/torchrun", line 33, in <module>
+    sys.exit(load_entry_point('torch==2.2.1', 'console_scripts', 'torchrun')())
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/opt/conda/envs/llava/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+=======================================================
+llava/train/train_mem.py FAILED
+-------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145120215
+  rank      : 1 (local_rank: 1)
+  exitcode  : -9 (pid: 234189)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 234189
+[2]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145120215
+  rank      : 2 (local_rank: 2)
+  exitcode  : -9 (pid: 234190)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 234190
+[3]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145120215
+  rank      : 3 (local_rank: 3)
+  exitcode  : -9 (pid: 234191)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 234191
+[4]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145120215
+  rank      : 4 (local_rank: 4)
+  exitcode  : -9 (pid: 234192)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 234192
+[5]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145120215
+  rank      : 5 (local_rank: 5)
+  exitcode  : -9 (pid: 234193)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 234193
+[6]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145120215
+  rank      : 6 (local_rank: 6)
+  exitcode  : -9 (pid: 234194)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 234194
+[7]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145120215
+  rank      : 7 (local_rank: 7)
+  exitcode  : -9 (pid: 234195)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 234195
+-------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-08-26_17:47:43
+  host      : aieflopsvip-kmaker-033145120215
+  rank      : 0 (local_rank: 0)
+  exitcode  : -9 (pid: 234188)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 234188
+=======================================================

@@ -1,0 +1,7 @@
+{
+  "coco": "/mnt/workspace/xuanshiyu.xsy/instruct/coco/coco",
+  "gqa": "/gruntdata/heyuan4/workspace/public_datasets/cv/doin/vqa/GQA/",
+  "ocr_vqa": "/gruntdata/heyuan4/workspace/public_datasets/cv/doin/vqa/OCRVQA",
+  "textvqa": "/gruntdata/heyuan4/workspace/public_datasets/cv/doin/vqa/TextVQA",
+  "vg": "/gruntdata/heyuan4/workspace/public_datasets/Visual_Genome/v1.2"
+}
