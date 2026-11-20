@@ -1,0 +1,74 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# --- Environments ---
+.env
+.venv
+venv/
+env/
+.conda/
+
+# --- Editors / OS ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Training artifacts: never commit weights or optimizer states ---
+checkpoints/
+wandb/
+runs/
+outputs/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.onnx
+*.engine
+*.npy.tmp
+
+# --- Data and evaluation outputs ---
+playground/data/
+playground/**/*.jsonl
+playground/**/*.arrow
+playground/**/*.parquet
+*.tar
+*.tar.gz
+*.zip
+
+# --- Logs and debug files ---
+logs/
+*.log
+debug/
+.nfs*
+*.tmp
+temp/
+tmp/
+
+# --- Notebook exports ---
+*.ipynb
+!docs/**/*.ipynb
+
+# --- Coverage / test caches ---
+.coverage
+htmlcov/
+.tox/

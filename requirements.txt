@@ -1,0 +1,24 @@
+# Core deep-learning stack
+torch>=2.1.0
+torchvision>=0.16.0
+transformers==4.40.0
+tokenizers>=0.15.0
+deepspeed>=0.13.0
+accelerate>=0.29.0
+peft>=0.10.0
+
+# Vision tower and image processing
+timm==0.9.16
+einops>=0.7.0
+Pillow>=10.0.0
+
+# Training and experiment utilities
+packaging>=23.2
+tqdm>=4.66.0
+shortuuid>=1.0.0
+numpy>=1.24.0
+datasets>=2.18.0
+
+# Optional: only needed when reading images from an internal object store.
+# Remove this line if you train from a local filesystem.
+pcache-fileio
