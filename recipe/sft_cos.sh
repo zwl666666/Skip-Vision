@@ -12,17 +12,25 @@
 #   bash recipe/sft_cos.sh                  # SV-CoS-80 (paper default)
 #   COS_BUDGET=336 bash recipe/sft_cos.sh  # SV-CoS-336
 #   COS_BUDGET=1296 bash recipe/sft_cos.sh # SV-CoS-1296
+#   COS_CONFIG=v1_672_q16+64+576+2304 ...   # any config from cos_configs.py
 set -e
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 COS_BUDGET=${COS_BUDGET:-80}
 
-case "$COS_BUDGET" in
-  80)   COS_CONFIG_VERSION="v1_448_q16+64";         COS_HIGHRES_EXTENSION="res224to448_80to80" ;;
-  336)  COS_CONFIG_VERSION="v1_448_q16+64+256";    COS_HIGHRES_EXTENSION="res224to448_80to336" ;;
-  1296) COS_CONFIG_VERSION="v1_448_q16+64+256+1024"; COS_HIGHRES_EXTENSION="res224to448_80to1296" ;;
-  *) echo "COS_BUDGET must be one of: 80, 336, 1296" >&2; exit 1 ;;
-esac
+if [[ -n "${COS_CONFIG:-}" ]]; then
+  # Direct passthrough for any configuration defined in
+  # llava/model/multimodal_projector/cos_configs.py.
+  COS_CONFIG_VERSION="$COS_CONFIG"
+  COS_HIGHRES_EXTENSION=${COS_HIGHRES_EXTENSION:?set COS_HIGHRES_EXTENSION when using COS_CONFIG directly}
+else
+  case "$COS_BUDGET" in
+    80)   COS_CONFIG_VERSION="v1_448_q16+64";           COS_HIGHRES_EXTENSION="res224to448_80to80" ;;
+    336)  COS_CONFIG_VERSION="v1_448_q16+64+256";      COS_HIGHRES_EXTENSION="res224to448_80to336" ;;
+    1296) COS_CONFIG_VERSION="v1_448_q16+64+256+1024"; COS_HIGHRES_EXTENSION="res224to448_80to1296" ;;
+    *) echo "COS_BUDGET must be one of: 80, 336, 1296 (or set COS_CONFIG directly)" >&2; exit 1 ;;
+  esac
+fi
 
 MODEL_PATH=${MODEL_PATH:-./checkpoints/pretrained/lmsys__vicuna-7b-v1.5}
 VISION_TOWER=${VISION_TOWER:-own_implementation_clip}

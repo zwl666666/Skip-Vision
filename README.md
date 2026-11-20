@@ -59,6 +59,47 @@ All recipes live in `recipe/` and are parameterized through environment variable
 
 The CoS setting follows a two-stage schedule: pretrain the resampler at 224px on 558K captions, then instruction-tune at 448px with all parameters unfrozen. The LLaVA and LLaVA-HD settings are single-stage SFT on the 665K mixture.
 
+<details>
+<summary><b>All CoS resampler configurations</b> (defined in <code>llava/model/multimodal_projector/cos_configs.py</code>)</summary>
+
+| Config | Backbone | Total tokens | Query split (global + local) | Used in paper |
+|:---|:---:|:---:|:---|:---:|
+| `v1` | 224 | 80 | 16 + 64 | pretraining |
+| `v1_448_q16+64` | 448 | 80 | 16 + 64 | SV-CoS-80 |
+| `v1_448_q16+64+256` | 448 | 336 | 16 + 64 + 256 | SV-CoS-336 |
+| `v1_448_q16+64+256+1024` | 448 | 1360 | 16 + 64 + 256 + 1024 | SV-CoS-1296 (*) |
+| `v1_336` | 336 | 80 | 16 + 64 | variant |
+| `v1_baseline` | 224 | 80 | 80 (flat) | baseline ablation |
+| `v1_baseline_448` | 448 | 80 | 80 (flat) | baseline ablation |
+| `v1_672_q16+64` | 672 | 80 | 16 + 64 | variant |
+| `v1_448_q16+256+1024` | 448 | 1296 | 16 + 256 + 1024 | variant |
+| `v2_448_q16+64+256` | 448 | 336 | 16 + 64 + 256 | variant |
+| `v1_448_q16+64+1024` | 448 | 1104 | 16 + 64 + 1024 | variant |
+| `v1_448_q1024+16+64` | 448 | 1104 | 1024 + 16 + 64 | variant |
+| `v2_448_q16+256+1024` | 448 | 1296 | 16 + 256 + 1024 | variant |
+| `v2/v3/v4_448_q16+64+256+1024` | 448 | 1360 | 16 + 64 + 256 + 1024 | variant |
+| `v1_448_q16+256+256+1024` | 448 | 1552 | 16 + 256 + 256 + 1024 | variant |
+| `v1_448_q16+1024+256+1024` | 448 | 2320 | 16 + 1024 + 256 + 1024 | variant |
+| `v1/v2_448_q16+256+1024+4096` | 448 | 5392 | 16 + 256 + 1024 + 4096 | variant |
+| `v2_672_q16+576+2304` | 672 | 2896 | 16 + 576 + 2304 | variant |
+| `v1_672_q16+144+576+2304` | 672 | 3040 | 16 + 144 + 576 + 2304 | variant |
+| `v2_672_q16+256+1024` | 672 | 1296 | 16 + 256 + 1024 | variant |
+| `v1_672_q16+64+576+2304` | 672 | 2960 | 16 + 64 + 576 + 2304 | variant |
+| `v2_672_q16+256+576+2304` | 672 | 3152 | 16 + 256 + 576 + 2304 | variant |
+| `v2_896_q16+256+1024` | 896 | 1296 | 16 + 256 + 1024 | variant |
+
+(*) The paper's 1296-token SFT budget maps to `v1_448_q16+64+256+1024` (1360 total) because the paper reports the *merged* token count after token-merge, not the raw resampler output.
+
+To run any configuration directly, pass its name through the passthrough flag (you must also pick a matching highres extension):
+
+```bash
+COS_CONFIG=v1_672_q16+64+576+2304 \
+COS_HIGHRES_EXTENSION=res224to448_80to2320 \
+bash recipe/sft_cos.sh
+```
+
+</details>
+
 ### 1. Stage 1 - Pretrain the Chain-of-Sight projector
 
 Stage 1 freezes the LLM and trains only the projector on 558K image-text pairs for one epoch with lr `1e-3`.
