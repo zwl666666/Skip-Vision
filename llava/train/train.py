@@ -69,6 +69,14 @@ class ModelArguments:
             "'cos' (SV-CoS, Nr=272/Ns=256)."
         },
     )
+    skip_ffn_num_retained: Optional[int] = field(
+        default=None,
+        metadata={"help": "Visual tokens that pass through the FFN. Defaults per setting: llava=100, hd=576, cos=272."},
+    )
+    skip_ffn_num_skipped: Optional[int] = field(
+        default=None,
+        metadata={"help": "Visual tokens that bypass the FFN. Defaults per setting: llava=156, hd=576, cos=256."},
+    )
     cos_config_version: Optional[str] = field(default=None)
     backbone_resolution: Optional[int] = field(default=None)
     cos_highres_extension_version: Optional[str] = field(default=None)
@@ -1040,6 +1048,10 @@ def train(attn_implementation=None):
                 **bnb_model_from_pretrained_args
             )
             model.config.skip_ffn_setting = model_args.skip_ffn_setting
+            if model_args.skip_ffn_num_retained is not None:
+                model.config.skip_ffn_num_retained = model_args.skip_ffn_num_retained
+            if model_args.skip_ffn_num_skipped is not None:
+                model.config.skip_ffn_num_skipped = model_args.skip_ffn_num_skipped
     else:
         model = transformers.LlamaForCausalLM.from_pretrained(
             model_args.model_name_or_path,
