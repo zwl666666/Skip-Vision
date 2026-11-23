@@ -53,6 +53,7 @@ deepspeed --num_gpus="$NUM_GPUS" llava/train/train_mem.py \
     --image_folder "$IMAGE_FOLDER" \
     --path_conversion "$PATH_CONVERSION" \
     --vision_tower "$VISION_TOWER" \
+    --skip_ffn_setting cos \
     --pretrain_mm_mlp_adapter "$PRETRAIN_ADAPTER" \
     --mm_projector_type chain-of-sight \
     --cos_config_version "$COS_CONFIG_VERSION" \
