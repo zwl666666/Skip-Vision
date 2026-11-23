@@ -61,6 +61,14 @@ class ModelArguments:
     freeze_backbone: bool = field(default=False)
     tune_mm_mlp_adapter: bool = field(default=False)
     vision_tower: Optional[str] = field(default=None)
+    skip_ffn_setting: Optional[str] = field(
+        default="none",
+        metadata={
+            "help": "Skip-FFN decoder setting: 'none' (standard LLaVA), "
+            "'llava' (SV-LLaVA, Nr=100/Ns=156), 'hd' (SV-LLaVA-HD, Nr=576/Ns=576), "
+            "'cos' (SV-CoS, Nr=272/Ns=256)."
+        },
+    )
     cos_config_version: Optional[str] = field(default=None)
     backbone_resolution: Optional[int] = field(default=None)
     cos_highres_extension_version: Optional[str] = field(default=None)
@@ -1019,13 +1027,19 @@ def train(attn_implementation=None):
                 **bnb_model_from_pretrained_args
             )
         else:
-            model = LlavaLlamaForCausalLM.from_pretrained(
+            skip_model_cls = {
+                "llava": LlavaLlamaSkipForCausalLM,
+                "hd": LlavaLlamaHDSkipForCausalLM,
+                "cos": LlavaLlamaCoSSkipForCausalLM,
+            }.get(model_args.skip_ffn_setting, LlavaLlamaForCausalLM)
+            model = skip_model_cls.from_pretrained(
                 model_args.model_name_or_path,
                 cache_dir=training_args.cache_dir,
                 attn_implementation=attn_implementation,
                 torch_dtype=(torch.bfloat16 if training_args.bf16 else None),
                 **bnb_model_from_pretrained_args
             )
+            model.config.skip_ffn_setting = model_args.skip_ffn_setting
     else:
         model = transformers.LlamaForCausalLM.from_pretrained(
             model_args.model_name_or_path,
