@@ -59,6 +59,19 @@ All recipes live in `recipe/` and are parameterized through environment variable
 
 The CoS setting follows a two-stage schedule: pretrain the resampler at 224px on 558K captions, then instruction-tune at 448px with all parameters unfrozen. The LLaVA and LLaVA-HD settings are single-stage SFT on the 665K mixture.
 
+### Skip-FFN training options
+
+The Skip-FFN decoder (the paper's core mechanism) is selected with `--skip_ffn_setting`. Visual tokens join the attention stream alongside text tokens but bypass every FFN layer; the skipped tokens are also removed from the KV cache during decoding (skip KV-cache).
+
+| Setting | Retained / skipped | Model class | Files |
+|:---|:---:|:---|:---|
+| `--skip_ffn_setting llava` | 100 / 156 | `LlavaLlamaSkipForCausalLM` | `llava_llama_skip.py` + `llava_llama_skip_ffn.py` |
+| `--skip_ffn_setting hd` | 576 / 576 | `LlavaLlamaHDSkipForCausalLM` | `llava_llama_hd_skip.py` + `llava_llama_hd_skip_ffn.py` |
+| `--skip_ffn_setting cos` | 272 / 256 | `LlavaLlamaCoSSkipForCausalLM` | `llava_llama_cos_skip.py` + `llava_llama_cos_skip_ffn.py` |
+| `--skip_ffn_setting none` (default) | - / - | `LlavaLlamaForCausalLM` | standard LLaVA decoder |
+
+Each `*_skip_ffn.py` file is a self-contained LLaMA implementation with the dual-stream decoder; the three variants differ in where the retained/skipped token boundaries are (e.g. `+101/+257` for LLaVA, `+577/+1153` for HD, `+272/+528` for CoS) and in whether the last local visual token passes through the FFN (the LV component, enabled in the CoS variant).
+
 <details>
 <summary><b>All CoS resampler configurations</b> (defined in <code>llava/model/multimodal_projector/cos_configs.py</code>)</summary>
 
