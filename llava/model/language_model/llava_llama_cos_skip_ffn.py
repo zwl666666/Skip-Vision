@@ -22,12 +22,6 @@ import math
 import warnings
 from typing import List, Optional, Tuple, Union
 
-import matplotlib.pyplot as plt
-from sklearn.decomposition import PCA
-import numpy as np
-from datetime import datetime
-import os
-
 import torch
 import torch.nn.functional as F
 import torch.utils.checkpoint
@@ -377,7 +371,7 @@ class SkipFFNLlamaAttention(nn.Module):
         _, i_len, _ = image_features.size()
         if q_len!=1:
             if image_token_indices[0] is not None:
-                hidden_states = torch.cat((hidden_states[:,:image_token_indices[0]+272,:],hidden_states[:,image_token_indices[0]+273:image_token_indices[0]+274,:],image_features[:,:,:],hidden_states[:,image_token_indices[0]+272:image_token_indices[0]+273,:],hidden_states[:,image_token_indices[0]+274:,:]),dim=1)#144
+                hidden_states = torch.cat((hidden_states[:,:image_token_indices[0]+n_retained,:],hidden_states[:,image_token_indices[0]+n_retained+1:image_token_indices[0]+n_retained+2,:],image_features[:,:,:],hidden_states[:,image_token_indices[0]+n_retained:image_token_indices[0]+n_retained+1,:],hidden_states[:,image_token_indices[0]+n_retained+2:,:]),dim=1)
             else:
                 hidden_states = torch.cat((hidden_states[:,:,:],image_features[:,0:0,:]),dim=1)
         if self.config.pretraining_tp > 1:
@@ -464,8 +458,8 @@ class SkipFFNLlamaAttention(nn.Module):
 
         if q_len!=1:
             if image_token_indices[0] is not None:
-                image_fea = attn_output[:,image_token_indices[0]+273:image_token_indices[0]+528,:]
-                attn_output = torch.cat((attn_output[:,:image_token_indices[0]+272,:],attn_output[:,image_token_indices[0]+528:image_token_indices[0]+529,:],attn_output[:,image_token_indices[0]+272:image_token_indices[0]+273,:], attn_output[:,image_token_indices[0]+529:,:]),dim=1)
+                image_fea = attn_output[:,image_token_indices[0]+n_retained+1:image_token_indices[0]+n_retained+n_skipped,:]
+                attn_output = torch.cat((attn_output[:,:image_token_indices[0]+n_retained,:],attn_output[:,image_token_indices[0]+n_retained+n_skipped:image_token_indices[0]+n_retained+n_skipped+1,:],attn_output[:,image_token_indices[0]+n_retained:image_token_indices[0]+n_retained+1,:], attn_output[:,image_token_indices[0]+n_retained+n_skipped+1:,:]),dim=1)
             else:
                 attn_output = attn_output
 
@@ -513,10 +507,13 @@ class SkipFFNLlamaFlashAttention2(SkipFFNLlamaAttention):
         _, i_len, _ = image_features.size()
         output_attentions = False
         bsz, q_len, C = hidden_states.size()
+        n_retained, n_skipped = get_skip_ffn_bounds(self.config)
+        if i_len != 256:
+            raise ValueError(f"Skip-FFN decoder expected 256 skipped visual tokens, got {i_len}. Check skip_ffn_num_retained/skip_ffn_num_skipped and the resampler config.")
 
         if q_len!=1:
             if image_token_indices[0] is not None:
-                hidden_states = torch.cat((hidden_states[:,:image_token_indices[0]+272,:],hidden_states[:,image_token_indices[0]+273:image_token_indices[0]+274,:],image_features[:,:,:],hidden_states[:,image_token_indices[0]+272:image_token_indices[0]+273,:],hidden_states[:,image_token_indices[0]+274:,:]),dim=1)#144
+                hidden_states = torch.cat((hidden_states[:,:image_token_indices[0]+n_retained,:],hidden_states[:,image_token_indices[0]+n_retained+1:image_token_indices[0]+n_retained+2,:],image_features[:,:,:],hidden_states[:,image_token_indices[0]+n_retained:image_token_indices[0]+n_retained+1,:],hidden_states[:,image_token_indices[0]+n_retained+2:,:]),dim=1)
             else:
                 # expand_feature = hidden_states[:,:576,:] + image_features
                 hidden_states = torch.cat((hidden_states[:,:,:],image_features[:,0:0,:]),dim=1)
@@ -597,8 +594,8 @@ class SkipFFNLlamaFlashAttention2(SkipFFNLlamaAttention):
 
         if q_len!=1:
             if image_token_indices[0] is not None:
-                image_fea = attn_output[:,image_token_indices[0]+273:image_token_indices[0]+528,:]
-                attn_output = torch.cat((attn_output[:,:image_token_indices[0]+272,:],attn_output[:,image_token_indices[0]+528:image_token_indices[0]+529,:],attn_output[:,image_token_indices[0]+272:image_token_indices[0]+273,:], attn_output[:,image_token_indices[0]+529:,:]),dim=1)
+                image_fea = attn_output[:,image_token_indices[0]+n_retained+1:image_token_indices[0]+n_retained+n_skipped,:]
+                attn_output = torch.cat((attn_output[:,:image_token_indices[0]+n_retained,:],attn_output[:,image_token_indices[0]+n_retained+n_skipped:image_token_indices[0]+n_retained+n_skipped+1,:],attn_output[:,image_token_indices[0]+n_retained:image_token_indices[0]+n_retained+1,:], attn_output[:,image_token_indices[0]+n_retained+n_skipped+1:,:]),dim=1)
             else:
                 attn_output = attn_output
                 # squeeze_attn_window = self.expand(attn_output[:,:64,:])
@@ -926,6 +923,23 @@ class SkipFFNLlamaPreTrainedModel(PreTrainedModel):
     supports_gradient_checkpointing = True
     _no_split_modules = ["SkipFFNLlamaDecoderLayer"]
     _skip_keys_device_placement = "past_key_values"
+
+
+def get_skip_ffn_bounds(config):
+    """Token boundaries shared by the attention layers and the decoder loop.
+
+    Returns (n_retained, n_skipped): the number of visual tokens that pass
+    through the FFN and the number that bypass it. Both values are read from
+    the model config so different settings never require code changes.
+    """
+    n_retained = int(getattr(config, "skip_ffn_num_retained", 272))
+    n_skipped = int(getattr(config, "skip_ffn_num_skipped", 256))
+    if n_retained <= 0 or n_skipped <= 0:
+        raise ValueError(
+            f"skip_ffn_num_retained and skip_ffn_num_skipped must be positive, "
+            f"got {n_retained} and {n_skipped}"
+        )
+    return n_retained, n_skipped
     _supports_flash_attn_2 = True
     _supports_sdpa = True
     _supports_cache_class = True
@@ -1132,11 +1146,11 @@ class SkipFFNLlamaModel(SkipFFNLlamaPreTrainedModel):
         hidden_states = inputs_embeds
         if hidden_states.shape[1]!=1:
             if image_token_indices[0] is not None:
-                img_token_1 = hidden_states[:,image_token_indices[0]+16:image_token_indices[0]+16+256,:]
-                img_token_2 = hidden_states[:,image_token_indices[0]+272:image_token_indices[0]+272+256,:]
+                img_token_1 = hidden_states[:,image_token_indices[0]+n_retained-n_skipped+16:image_token_indices[0]+16+n_skipped,:]
+                img_token_2 = hidden_states[:,image_token_indices[0]+n_retained:image_token_indices[0]+n_retained+n_skipped,:]
                 q1 = torch.matmul(torch.softmax(self.ada(img_token_1),dim=1).transpose(1,2) ,img_token_1)
                 q2 = torch.matmul(torch.softmax(self.ada(img_token_2),dim=1).transpose(1,2) ,img_token_2)
-                hidden_states = torch.cat((hidden_states[:,:image_token_indices[0]+272,:],hidden_states[:,image_token_indices[0]+527:image_token_indices[0]+528,:],q1,q2,hidden_states[:,image_token_indices[0]+528+2:,:]),dim=1)
+                hidden_states = torch.cat((hidden_states[:,:image_token_indices[0]+n_retained,:],hidden_states[:,image_token_indices[0]+n_retained+n_skipped-1:image_token_indices[0]+n_retained+n_skipped,:],q1,q2,hidden_states[:,image_token_indices[0]+n_retained+n_skipped+2:,:]),dim=1)
             else:
                 q1 = hidden_states[:,0:1,:]
                 q2 = hidden_states[:,1:2,:]
@@ -1147,7 +1161,7 @@ class SkipFFNLlamaModel(SkipFFNLlamaPreTrainedModel):
         all_hidden_states = () if output_hidden_states else None
         all_self_attns = () if output_attentions else None
         next_decoder_cache = None
-        image_features=image_features[:,272:-1,:]
+        image_features=image_features[:,n_retained:-1,:]
 
         for decoder_layer in self.layers:
             if output_hidden_states:
@@ -1187,7 +1201,7 @@ class SkipFFNLlamaModel(SkipFFNLlamaPreTrainedModel):
                 all_self_attns += (layer_outputs[1],)
 
         hidden_states = self.norm(hidden_states)
-        padding_zero = torch.zeros((batch_size,255,4096),device=hidden_states.device,dtype=hidden_states.dtype)
+        padding_zero = torch.zeros((batch_size,n_skipped-1,4096),device=hidden_states.device,dtype=hidden_states.dtype)
         if hidden_states.shape[1]!=1:
             if image_token_indices[0] is not None:
                 # expand_img = hidden_states[:,image_token_indices[0]:image_token_indices[0]+144,:].gather(dim=1, index=index.expand(batch_size, 576, 4096))
