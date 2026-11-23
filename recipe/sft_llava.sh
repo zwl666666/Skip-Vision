@@ -23,6 +23,7 @@ deepspeed --num_gpus="$NUM_GPUS" llava/train/train_mem.py \
     --image_folder "$IMAGE_FOLDER" \
     --path_conversion "$PATH_CONVERSION" \
     --vision_tower openai/clip-vit-large-patch14-336 \
+    --skip_ffn_setting llava \
     --mm_projector_type mlp2x_gelu \
     --mm_vision_select_layer -2 \
     --mm_use_im_start_end False \
