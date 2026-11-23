@@ -488,23 +488,12 @@ class LlavaMetaForCausalLM(ABC):
         image_features_ori = self.get_model().get_vision_tower()(images)
         image_features_ori = self.get_model().mm_projector(image_features_ori)
         b,n,c = image_features_ori.shape
-
-        # tome_token1 = RandomBipartiteSoftMatching(num_tokens=1024-256)(image_features_ori[:,272:272+1024,:])
-        # tome_token2 = RandomBipartiteSoftMatching(num_tokens=4096-1024)(image_features_ori[:,1296:1296+4096,:])
-        # image_features_ori = torch.cat((image_features_ori[:,:272,:],tome_token1,tome_token2),dim=1)
-
-        # tome_token = RandomBipartiteSoftMatching(num_tokens=2304-576)(image_features_ori[:,848:848+2304,:])
-        # image_features_ori = torch.cat((image_features_ori[:,:848,:],tome_token),dim=1)
-
-        # tome_token = RandomBipartiteSoftMatching(num_tokens=1024-256)(image_features_ori[:,273:273+1024,:])
-        # image_features_ori = torch.cat((image_features_ori[:,:273,:],tome_token,image_features_ori[:,273+1024:,:]),dim=1)
-
-
-        tome_token = RandomBipartiteSoftMatching(num_tokens=476-156)(image_features_ori[:,100:,:])
-        image_features_ori = torch.cat((image_features_ori[:,:100,:],tome_token),dim=1)
-
-        # padding_zero = torch.zeros((b,2,4096),device=image_features_ori.device,dtype=image_features_ori.dtype)
-        # image_features = torch.cat((image_features_ori,padding_zero),dim=1)
+        # In the SV-CoS skip-FFN setting the decoder performs its own token
+        # merge (1296 -> 528), so the resampler output must stay untouched.
+        # The standard and SV-LLaVA settings merge here instead.
+        if getattr(self.config, "skip_ffn_setting", "none") != "cos":
+            tome_token = RandomBipartiteSoftMatching(num_tokens=476-156)(image_features_ori[:,100:,:])
+            image_features_ori = torch.cat((image_features_ori[:,:100,:],tome_token),dim=1)
         image_features = image_features_ori
 
         return image_features,image_features_ori
