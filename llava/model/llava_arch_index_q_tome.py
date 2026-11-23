@@ -352,32 +352,6 @@ def calsim(metric):
         sim = sim.mean()
     return sim
 
-# import numpy as np
-# import matplotlib.pyplot as plt
-# import seaborn as sns
-# from sklearn.metrics.pairwise import cosine_similarity
-def plot(tokens):
-    tokens_batch1 = tokens[0][:16,:].cpu().numpy()
-    tokens_batch2 = tokens[0][16:272,:].cpu().numpy()
-    tokens_batch3 = tokens[0][272:1296,:].cpu().numpy()
-
-        # 计算余弦相似度矩阵并提取上三角部分的相似度值
-    def compute_similarities(tokens):
-        similarity_matrix = cosine_similarity(tokens)
-        similarities = similarity_matrix[np.triu_indices_from(similarity_matrix, k=1)]
-        return similarities
-
-    similarities1 = compute_similarities(tokens_batch1)
-    similarities2 = compute_similarities(tokens_batch2)
-    similarities3 = compute_similarities(tokens_batch3)
-    plt.figure(figsize=(8, 5))
-    sns.kdeplot(similarities1, color='#9BB7D4', fill=True, label='                              ', alpha=0.5, linewidth=2)
-    sns.kdeplot(similarities2, color='#A9D6B0', fill=True, label='                              ', alpha=0.5, linewidth=2)
-    sns.kdeplot(similarities3, color='#F4A582', fill=True, label='                              ', alpha=0.5, linewidth=2)
-    plt.legend(loc='upper right', bbox_to_anchor=(1, 1), fancybox=True, shadow=False, ncol=1, fontsize='medium', frameon=True)
-    plt.tight_layout()
-    plt.savefig("./token_density.png", format="png")
-
 class LlavaMetaModel:
 
     def __init__(self, config):
@@ -514,12 +488,6 @@ class LlavaMetaForCausalLM(ABC):
         image_features_ori = self.get_model().get_vision_tower()(images)
         image_features_ori = self.get_model().mm_projector(image_features_ori)
         b,n,c = image_features_ori.shape
-
-        # plot(image_features_ori)
-        # print("t1:",torch.var(image_features_ori[:,:16,:],dim=-1)) #1.2
-        # print("t2:",torch.var(image_features_ori[:,16:16+256,:],dim=-1)) #0.12
-        # print("t3:",torch.var(image_features_ori[:,272:1296,:],dim=-1)) #0.09
-        # print("t1:",(image_features_ori[:,:16,:]-image_features_ori[:,:16,:].mean())^2.mean())
 
         # tome_token1 = RandomBipartiteSoftMatching(num_tokens=1024-256)(image_features_ori[:,272:272+1024,:])
         # tome_token2 = RandomBipartiteSoftMatching(num_tokens=4096-1024)(image_features_ori[:,1296:1296+4096,:])
